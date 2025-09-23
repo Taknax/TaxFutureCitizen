@@ -1,5 +1,7 @@
 package tax.taknax.tax_future_citizen.item;
 
+import tax.taknax.tax_future_citizen.procedures.LightsaberSwingSoundProcedure;
+
 import net.minecraftforge.common.ToolActions;
 import net.minecraftforge.common.ToolAction;
 
@@ -89,5 +91,12 @@ public class LightsaberGrayLightItem extends TieredItem {
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		itemstack.hurtAndBreak(2, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
 		return true;
+	}
+
+	@Override
+	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
+		boolean retval = super.onEntitySwing(itemstack, entity);
+		LightsaberSwingSoundProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+		return retval;
 	}
 }
