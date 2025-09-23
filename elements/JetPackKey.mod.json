@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "H",
+    "keyBindingName": "Jet Pack Hotkey",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "JetPackHotkeyPressed"
+    }
+  }
+}

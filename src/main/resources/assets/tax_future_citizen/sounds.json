@@ -1,0 +1,26 @@
+{
+  "jet_pack_sound": {
+    "sounds": [
+      {
+        "name": "tax_future_citizen:jet_pack_sound",
+        "stream": false
+      }
+    ]
+  },
+  "lightsaber_swing_sound": {
+    "sounds": [
+      {
+        "name": "tax_future_citizen:lightsaber_swing",
+        "stream": false
+      }
+    ]
+  },
+  "lightsaber_ignition_sound": {
+    "sounds": [
+      {
+        "name": "tax_future_citizen:lightsaber_ignition",
+        "stream": false
+      }
+    ]
+  }
+}

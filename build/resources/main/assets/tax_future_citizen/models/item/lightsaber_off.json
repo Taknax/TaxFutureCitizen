@@ -1,0 +1,31 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "tax_future_citizen:custom/lightsaber_off",
+    "textures": {
+      "1": "tax_future_citizen:block/lightsaber_off",
+      "particle": "tax_future_citizen:item/lightsaber_off_item"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tax_future_citizen:item/lightsaber_off_item"
+      }
+    },
+    "fixed": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tax_future_citizen:item/lightsaber_off_item"
+      }
+    },
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tax_future_citizen:item/lightsaber_off_item"
+      }
+    }
+  }
+}

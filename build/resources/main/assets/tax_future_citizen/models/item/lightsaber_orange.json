@@ -1,0 +1,31 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "tax_future_citizen:custom/lightsaber_orange",
+    "textures": {
+      "1": "tax_future_citizen:block/lightsaber_orange",
+      "particle": "tax_future_citizen:item/lightsaber_orange_item"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tax_future_citizen:item/lightsaber_orange_item"
+      }
+    },
+    "fixed": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tax_future_citizen:item/lightsaber_orange_item"
+      }
+    },
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "tax_future_citizen:item/lightsaber_orange_item"
+      }
+    }
+  }
+}

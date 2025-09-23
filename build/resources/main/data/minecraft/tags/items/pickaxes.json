@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "tax_future_citizen:lightsaber_yellow",
+    "tax_future_citizen:lightsaber_purple",
+    "tax_future_citizen:lightsaber_gray",
+    "tax_future_citizen:lightsaber_green",
+    "tax_future_citizen:lightsaber_cyan",
+    "tax_future_citizen:lightsaber_brown",
+    "tax_future_citizen:lightsaber_red",
+    "tax_future_citizen:lightsaber_orange",
+    "tax_future_citizen:lightsaber_black",
+    "tax_future_citizen:lightsaber_blue_light",
+    "tax_future_citizen:lightsaber_magenta",
+    "tax_future_citizen:lightsaber_pink",
+    "tax_future_citizen:lightsaber_green_light",
+    "tax_future_citizen:lightsaber_white",
+    "tax_future_citizen:lightsaber_gray_light",
+    "tax_future_citizen:lightsaber_blue"
+  ]
+}
