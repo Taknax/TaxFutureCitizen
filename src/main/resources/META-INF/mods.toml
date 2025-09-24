@@ -5,10 +5,12 @@ license="Not specified"
 [[mods]]
 modId="tax_future_citizen"
 version="1.0.0"
-displayName="TaxFutureCitizen"
+displayName="Tax' Future Citizen"
 displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="MCreator"
+logoFile="logo.png"
+credits="Written by Taknax and LeonX"
+authors="Taknax, LeonX"
+description="Future Citizen is a Minecraft moodifikation aims to bring the future."
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

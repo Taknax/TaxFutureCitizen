@@ -36,8 +36,14 @@
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onEntitySwing": {
+    "onCrafted": {
+      "name": "LightsaberIgnitionSound"
+    },
+    "onEntityHitWith": {
       "name": "LightsaberSwingSound"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "LightsaberIgnitionSound"
     }
   }
 }

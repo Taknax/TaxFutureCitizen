@@ -24,7 +24,7 @@ public class JetPackHotkeyPressedProcedure {
 			return;
 		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == TaxFutureCitizenModItems.SPACE_SUIT_CHESTPLATE.get()) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 7, 10, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 0, 10, false, false));
 			if (world instanceof ServerLevel _level)
 				_level.sendParticles(ParticleTypes.FLAME, x, y, z, 2, 0.1, 0.1, 0.1, 0);
 			if (world instanceof Level _level) {

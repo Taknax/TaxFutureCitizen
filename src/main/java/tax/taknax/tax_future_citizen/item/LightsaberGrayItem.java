@@ -1,6 +1,7 @@
 package tax.taknax.tax_future_citizen.item;
 
 import tax.taknax.tax_future_citizen.procedures.LightsaberSwingSoundProcedure;
+import tax.taknax.tax_future_citizen.procedures.LightsaberIgnitionSoundProcedure;
 
 import net.minecraftforge.common.ToolActions;
 import net.minecraftforge.common.ToolAction;
@@ -13,6 +14,7 @@ import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attribute;
@@ -84,19 +86,20 @@ public class LightsaberGrayItem extends TieredItem {
 	@Override
 	public boolean mineBlock(ItemStack itemstack, Level world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
 		itemstack.hurtAndBreak(1, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
+		LightsaberSwingSoundProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return true;
 	}
 
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		itemstack.hurtAndBreak(2, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
+		LightsaberSwingSoundProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
 		return true;
 	}
 
 	@Override
-	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
-		boolean retval = super.onEntitySwing(itemstack, entity);
-		LightsaberSwingSoundProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
-		return retval;
+	public void onCraftedBy(ItemStack itemstack, Level world, Player entity) {
+		super.onCraftedBy(itemstack, world, entity);
+		LightsaberIgnitionSoundProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
 	}
 }

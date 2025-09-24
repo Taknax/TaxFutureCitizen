@@ -11,7 +11,8 @@
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberBlackItem.java",
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_black.json"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberBlue",
@@ -24,7 +25,8 @@
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_blue.json",
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberBlueItem.java"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberBlueLight",
@@ -37,7 +39,8 @@
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_blue_light.json",
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberBlueLightItem.java"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberBrown",
@@ -50,7 +53,8 @@
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberBrownItem.java",
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_brown.json"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberCyan",
@@ -63,7 +67,8 @@
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberCyanItem.java",
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_cyan.json"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberRed",
@@ -76,7 +81,8 @@
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_red.json",
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberRedItem.java"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberOrange",
@@ -89,7 +95,8 @@
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_orange.json",
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberOrangeItem.java"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberPink",
@@ -102,7 +109,8 @@
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_pink.json",
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberPinkItem.java"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberPurple",
@@ -115,7 +123,8 @@
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberPurpleItem.java",
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_purple.json"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberGreen",
@@ -128,7 +137,8 @@
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_green.json",
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberGreenItem.java"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberGreenLight",
@@ -141,7 +151,8 @@
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberGreenLightItem.java",
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_green_light.json"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberMagenta",
@@ -154,7 +165,8 @@
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberMagentaItem.java",
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_magenta.json"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberGray",
@@ -167,7 +179,8 @@
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_gray.json",
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberGrayItem.java"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberGrayLight",
@@ -180,7 +193,8 @@
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberGrayLightItem.java",
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_gray_light.json"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberWhite",
@@ -193,7 +207,8 @@
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberWhiteItem.java",
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_white.json"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberYellow",
@@ -206,7 +221,8 @@
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberYellowItem.java",
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_yellow.json"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "LightsaberOff",
@@ -219,7 +235,8 @@
           "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberOffItem.java",
           "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_off.json"
         ]
-      }
+      },
+      "path": "~/sabers"
     },
     {
       "name": "JetPackHotkeyPressed",
@@ -253,7 +270,8 @@
         "files": [
           "src/main/java/tax/taknax/tax_future_citizen/procedures/JetPackHotkeyPressedProcedure.java"
         ]
-      }
+      },
+      "path": "~/mechanics"
     },
     {
       "name": "JetPackKey",
@@ -265,7 +283,8 @@
         "files": [
           "src/main/java/tax/taknax/tax_future_citizen/network/JetPackKeyMessage.java"
         ]
-      }
+      },
+      "path": "~/keys"
     },
     {
       "name": "LightsaberSwingSound",
@@ -295,7 +314,8 @@
         "files": [
           "src/main/java/tax/taknax/tax_future_citizen/procedures/LightsaberSwingSoundProcedure.java"
         ]
-      }
+      },
+      "path": "~/mechanics"
     },
     {
       "name": "LightsaberIgnitionSound",
@@ -305,10 +325,6 @@
       "registry_name": "lightsaber_ignition_sound",
       "metadata": {
         "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
           {
             "name": "x",
             "type": "number"
@@ -329,7 +345,8 @@
         "files": [
           "src/main/java/tax/taknax/tax_future_citizen/procedures/LightsaberIgnitionSoundProcedure.java"
         ]
-      }
+      },
+      "path": "~/mechanics"
     },
     {
       "name": "SpaceSuit",
@@ -345,7 +362,8 @@
           "src/main/java/tax/taknax/tax_future_citizen/item/SpaceSuitItem.java",
           "src/main/resources/assets/tax_future_citizen/models/item/space_suit_leggings.json"
         ]
-      }
+      },
+      "path": "~/armors"
     },
     {
       "name": "Citizen",
@@ -355,7 +373,8 @@
       "registry_name": "citizen",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/tabs"
     }
   ],
   "variable_elements": [],
@@ -488,14 +507,35 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "sabers",
+        "children": []
+      },
+      {
+        "name": "mechanics",
+        "children": []
+      },
+      {
+        "name": "tabs",
+        "children": []
+      },
+      {
+        "name": "armors",
+        "children": []
+      },
+      {
+        "name": "keys",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "tax_future_citizen",
     "modName": "Tax\u0027 Future Citizen",
     "version": "1.0.0",
+    "description": "Future Citizen is a Minecraft moodifikation aims to bring the future.",
     "author": "Taknax, LeonX",
-    "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
     "modPicture": "tax_future__citizen",
