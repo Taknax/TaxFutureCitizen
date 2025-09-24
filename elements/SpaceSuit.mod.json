@@ -10,6 +10,12 @@
     "textureLeggings": "space_leggings_item",
     "enableBoots": true,
     "textureBoots": "space_boots_item",
+    "onLeggingsTick": {
+      "name": "MechanicSpaceBoots"
+    },
+    "onBootsTick": {
+      "name": "MechanicSpaceBoots"
+    },
     "creativeTabs": [
       {
         "value": "CUSTOM:Citizen"

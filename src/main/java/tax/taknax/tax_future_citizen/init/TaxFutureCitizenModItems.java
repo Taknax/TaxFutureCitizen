@@ -21,6 +21,7 @@ import tax.taknax.tax_future_citizen.item.LightsaberBrownItem;
 import tax.taknax.tax_future_citizen.item.LightsaberBlueLightItem;
 import tax.taknax.tax_future_citizen.item.LightsaberBlueItem;
 import tax.taknax.tax_future_citizen.item.LightsaberBlackItem;
+import tax.taknax.tax_future_citizen.item.ArcEnergyItem;
 import tax.taknax.tax_future_citizen.TaxFutureCitizenMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -52,6 +53,7 @@ public class TaxFutureCitizenModItems {
 	public static final RegistryObject<Item> SPACE_SUIT_CHESTPLATE = REGISTRY.register("space_suit_chestplate", () -> new SpaceSuitItem.Chestplate());
 	public static final RegistryObject<Item> SPACE_SUIT_LEGGINGS = REGISTRY.register("space_suit_leggings", () -> new SpaceSuitItem.Leggings());
 	public static final RegistryObject<Item> SPACE_SUIT_BOOTS = REGISTRY.register("space_suit_boots", () -> new SpaceSuitItem.Boots());
+	public static final RegistryObject<Item> ARC_ENERGY = REGISTRY.register("arc_energy", () -> new ArcEnergyItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

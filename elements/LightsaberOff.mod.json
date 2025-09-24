@@ -15,7 +15,7 @@
     },
     "creativeTabs": [
       {
-        "value": "TOOLS"
+        "value": "CUSTOM:Citizen"
       }
     ],
     "efficiency": 1.0,
@@ -26,11 +26,7 @@
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [
-      {
-        "value": "Blocks.STAINED_GLASS#15"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": true,
     "blockDropsTier": "NETHERITE",
     "blocksAffected": [],

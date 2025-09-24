@@ -19,7 +19,7 @@ import net.minecraft.client.KeyMapping;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class TaxFutureCitizenModKeyMappings {
-	public static final KeyMapping JET_PACK_KEY = new KeyMapping("key.tax_future_citizen.jet_pack_key", GLFW.GLFW_KEY_H, "key.categories.misc") {
+	public static final KeyMapping JET_PACK_KEY = new KeyMapping("key.tax_future_citizen.jet_pack_key", GLFW.GLFW_KEY_H, "key.categories.space_suit") {
 		private boolean isDownOld = false;
 
 		@Override
@@ -28,10 +28,16 @@ public class TaxFutureCitizenModKeyMappings {
 			if (isDownOld != isDown && isDown) {
 				TaxFutureCitizenMod.PACKET_HANDLER.sendToServer(new JetPackKeyMessage(0, 0));
 				JetPackKeyMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+				JET_PACK_KEY_LASTPRESS = System.currentTimeMillis();
+			} else if (isDownOld != isDown && !isDown) {
+				int dt = (int) (System.currentTimeMillis() - JET_PACK_KEY_LASTPRESS);
+				TaxFutureCitizenMod.PACKET_HANDLER.sendToServer(new JetPackKeyMessage(1, dt));
+				JetPackKeyMessage.pressAction(Minecraft.getInstance().player, 1, dt);
 			}
 			isDownOld = isDown;
 		}
 	};
+	private static long JET_PACK_KEY_LASTPRESS = 0;
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {

@@ -1,5 +1,6 @@
 package tax.taknax.tax_future_citizen.network;
 
+import tax.taknax.tax_future_citizen.procedures.JetPackHotkeyReleasedProcedure;
 import tax.taknax.tax_future_citizen.procedures.JetPackHotkeyPressedProcedure;
 import tax.taknax.tax_future_citizen.TaxFutureCitizenMod;
 
@@ -51,7 +52,11 @@ public class JetPackKeyMessage {
 			return;
 		if (type == 0) {
 
-			JetPackHotkeyPressedProcedure.execute(world, x, y, z, entity);
+			JetPackHotkeyPressedProcedure.execute(entity);
+		}
+		if (type == 1) {
+
+			JetPackHotkeyReleasedProcedure.execute(entity);
 		}
 	}
 

@@ -249,22 +249,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ],
         "files": [
@@ -375,6 +359,228 @@
         "files": []
       },
       "path": "~/tabs"
+    },
+    {
+      "name": "MechanicSpaceBoots",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanic_space_boots",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/MechanicSpaceBootsProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "MechanicSpaceLeggings",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanic_space_leggings",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/MechanicSpaceLeggingsProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "MechanicSpaceHelmet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanic_space_helmet",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/MechanicSpaceHelmetProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "MechanicSpaceSuit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanic_space_suit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/MechanicSpaceSuitProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayMechanic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_mechanic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayMechanicProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/client/screens/SpaceHelmetOverlayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "SpaceHelmetOverlayJetpackLabel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_jetpack_label",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayJetpackLabelProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "ArcEnergy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arc_energy",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/ArcEnergyItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/arc_energy.json"
+        ]
+      }
+    },
+    {
+      "name": "ArcEnergyRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arc_energy_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/ArcEnergyRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "JetPackTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jet_pack_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/JetPackTickProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "JetPackHotkeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jet_pack_hotkey_released",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/JetPackHotkeyReleasedProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
     }
   ],
   "variable_elements": [],
@@ -461,7 +667,29 @@
       "~CUSTOM:LightsaberBlack"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:Citizen": [
+      "SpaceSuit",
+      "LightsaberOff",
+      "LightsaberBlack",
+      "LightsaberBlue",
+      "LightsaberBlueLight",
+      "LightsaberBrown",
+      "LightsaberCyan",
+      "LightsaberRed",
+      "LightsaberOrange",
+      "LightsaberPink",
+      "LightsaberPurple",
+      "LightsaberGreen",
+      "LightsaberGreenLight",
+      "LightsaberMagenta",
+      "LightsaberGray",
+      "LightsaberGrayLight",
+      "LightsaberWhite",
+      "LightsaberYellow",
+      "ArcEnergy"
+    ]
+  },
   "language_map": {
     "en_us": {
       "item.tax_future_citizen.lightsaber_black": "Black Lightsaber",
@@ -481,7 +709,7 @@
       "item.tax_future_citizen.lightsaber_white": "White Lightsaber",
       "item.tax_future_citizen.lightsaber_yellow": "Yellow Lightsaber",
       "item.tax_future_citizen.lightsaber_off": "Yellow Lightsaber",
-      "key.tax_future_citizen.jet_pack_key": "Jet Pack Hotkey",
+      "key.tax_future_citizen.space_suit": "Jet Pack Hotkey",
       "subtitles.jet_pack_sound": "",
       "subtitles.lightsaber_swing_sound": "",
       "subtitles.lightsaber_ignition_sound": "",
@@ -489,7 +717,11 @@
       "item.tax_future_citizen.space_suit_helmet": "Space Helmet",
       "item_group.tax_future_citizen.citizen": "Citizen",
       "item.tax_future_citizen.space_suit_leggings": "Space Pant",
-      "item.tax_future_citizen.space_suit_chestplate": "Jet Pack"
+      "item.tax_future_citizen.space_suit_chestplate": "Jet Pack",
+      "item.space_suit.space_suit_chestplate": "Jet Pack",
+      "gui.tax_future_citizen.space_helmet_overlay.label_fuel": "Fuel \u003cENBT:integer:displayFuel\u003eseconds",
+      "item.tax_future_citizen.arc_energy": "Arc Energy",
+      "key.tax_future_citizen.jet_pack_key": "Jet Pack Hotkey"
     }
   },
   "metadata": {

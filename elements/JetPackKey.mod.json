@@ -4,9 +4,12 @@
   "definition": {
     "triggerKey": "H",
     "keyBindingName": "Jet Pack Hotkey",
-    "keyBindingCategoryKey": "misc",
+    "keyBindingCategoryKey": "space_suit",
     "onKeyPressed": {
       "name": "JetPackHotkeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "JetPackHotkeyReleased"
     }
   }
 }

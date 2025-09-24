@@ -1,0 +1,55 @@
+{
+  "_fv": 79,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "jet_pack_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayJetpackLabel"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 8,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_fuel",
+          "text": {
+            "fixedValue": "Fuel <ENBT:integer:displayFuel>seconds"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayJetpackLabel"
+          },
+          "anchorPoint": "CENTER",
+          "x": 30,
+          "y": 11,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "SpaceHelmetOverlayMechanic"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

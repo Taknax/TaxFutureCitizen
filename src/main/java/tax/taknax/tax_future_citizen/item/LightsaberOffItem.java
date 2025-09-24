@@ -2,7 +2,6 @@ package tax.taknax.tax_future_citizen.item;
 
 import tax.taknax.tax_future_citizen.procedures.LightsaberSwingSoundProcedure;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
@@ -34,7 +33,7 @@ public class LightsaberOffItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Blocks.BLACK_STAINED_GLASS));
+				return Ingredient.of();
 			}
 		}, 3, -3f, new Item.Properties().fireResistant());
 	}

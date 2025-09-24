@@ -16,7 +16,7 @@
   "item.tax_future_citizen.lightsaber_white": "White Lightsaber",
   "item.tax_future_citizen.lightsaber_yellow": "Yellow Lightsaber",
   "item.tax_future_citizen.lightsaber_off": "Yellow Lightsaber",
-  "key.tax_future_citizen.jet_pack_key": "Jet Pack Hotkey",
+  "key.tax_future_citizen.space_suit": "Jet Pack Hotkey",
   "subtitles.jet_pack_sound": "",
   "subtitles.lightsaber_swing_sound": "",
   "subtitles.lightsaber_ignition_sound": "",
@@ -24,5 +24,9 @@
   "item.tax_future_citizen.space_suit_helmet": "Space Helmet",
   "item_group.tax_future_citizen.citizen": "Citizen",
   "item.tax_future_citizen.space_suit_leggings": "Space Pant",
-  "item.tax_future_citizen.space_suit_chestplate": "Jet Pack"
+  "item.tax_future_citizen.space_suit_chestplate": "Jet Pack",
+  "item.space_suit.space_suit_chestplate": "Jet Pack",
+  "gui.tax_future_citizen.space_helmet_overlay.label_fuel": "Fuel \u003cENBT:integer:displayFuel\u003eseconds",
+  "item.tax_future_citizen.arc_energy": "Arc Energy",
+  "key.tax_future_citizen.jet_pack_key": "Jet Pack Hotkey"
 }
