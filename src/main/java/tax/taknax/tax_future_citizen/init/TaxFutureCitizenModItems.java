@@ -3,6 +3,7 @@
  */
 package tax.taknax.tax_future_citizen.init;
 
+import tax.taknax.tax_future_citizen.item.SpaceSuitItem;
 import tax.taknax.tax_future_citizen.item.LightsaberYellowItem;
 import tax.taknax.tax_future_citizen.item.LightsaberWhiteItem;
 import tax.taknax.tax_future_citizen.item.LightsaberRedItem;
@@ -20,7 +21,6 @@ import tax.taknax.tax_future_citizen.item.LightsaberBrownItem;
 import tax.taknax.tax_future_citizen.item.LightsaberBlueLightItem;
 import tax.taknax.tax_future_citizen.item.LightsaberBlueItem;
 import tax.taknax.tax_future_citizen.item.LightsaberBlackItem;
-import tax.taknax.tax_future_citizen.item.JetPackItem;
 import tax.taknax.tax_future_citizen.TaxFutureCitizenMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -48,7 +48,10 @@ public class TaxFutureCitizenModItems {
 	public static final RegistryObject<Item> LIGHTSABER_WHITE = REGISTRY.register("lightsaber_white", () -> new LightsaberWhiteItem());
 	public static final RegistryObject<Item> LIGHTSABER_YELLOW = REGISTRY.register("lightsaber_yellow", () -> new LightsaberYellowItem());
 	public static final RegistryObject<Item> LIGHTSABER_OFF = REGISTRY.register("lightsaber_off", () -> new LightsaberOffItem());
-	public static final RegistryObject<Item> JET_PACK_CHESTPLATE = REGISTRY.register("jet_pack_chestplate", () -> new JetPackItem.Chestplate());
+	public static final RegistryObject<Item> SPACE_SUIT_HELMET = REGISTRY.register("space_suit_helmet", () -> new SpaceSuitItem.Helmet());
+	public static final RegistryObject<Item> SPACE_SUIT_CHESTPLATE = REGISTRY.register("space_suit_chestplate", () -> new SpaceSuitItem.Chestplate());
+	public static final RegistryObject<Item> SPACE_SUIT_LEGGINGS = REGISTRY.register("space_suit_leggings", () -> new SpaceSuitItem.Leggings());
+	public static final RegistryObject<Item> SPACE_SUIT_BOOTS = REGISTRY.register("space_suit_boots", () -> new SpaceSuitItem.Boots());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

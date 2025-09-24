@@ -5,18 +5,28 @@ package tax.taknax.tax_future_citizen.init;
 
 import tax.taknax.tax_future_citizen.TaxFutureCitizenMod;
 
+import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class TaxFutureCitizenModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TaxFutureCitizenMod.MODID);
+	public static final RegistryObject<CreativeModeTab> CITIZEN = REGISTRY.register("citizen",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.tax_future_citizen.citizen")).icon(() -> new ItemStack(TaxFutureCitizenModItems.SPACE_SUIT_HELMET.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(TaxFutureCitizenModItems.SPACE_SUIT_HELMET.get());
+				tabData.accept(TaxFutureCitizenModItems.SPACE_SUIT_CHESTPLATE.get());
+				tabData.accept(TaxFutureCitizenModItems.SPACE_SUIT_LEGGINGS.get());
+				tabData.accept(TaxFutureCitizenModItems.SPACE_SUIT_BOOTS.get());
+			}).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
@@ -38,7 +48,6 @@ public class TaxFutureCitizenModTabs {
 			tabData.accept(TaxFutureCitizenModItems.LIGHTSABER_WHITE.get());
 			tabData.accept(TaxFutureCitizenModItems.LIGHTSABER_YELLOW.get());
 			tabData.accept(TaxFutureCitizenModItems.LIGHTSABER_OFF.get());
-			tabData.accept(TaxFutureCitizenModItems.JET_PACK_CHESTPLATE.get());
 		}
 	}
 }
