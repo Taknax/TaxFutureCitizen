@@ -79,6 +79,244 @@
           "y": 44,
           "locked": false
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_black_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayBlackSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_blue_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayBlueSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_blue_light_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayLightBlueSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_brown_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayBrownSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_cyan_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayCyanSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_gray_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayGraySaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_gray_light_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayLightGraySaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_green_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayGreenSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_green_light_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayLightGreenSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_magenta_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayMagentaSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_orange_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayOrangeSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_pink_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayPinkSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_purple_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayPurpleSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_red_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayRedSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_white_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayWhiteSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_yellow_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayYelliowSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lightsaber_off_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayOffSaber"
+          },
+          "anchorPoint": "CENTER",
+          "x": 1,
+          "y": 85,
+          "locked": false
+        }
       }
     ],
     "baseTexture": "",

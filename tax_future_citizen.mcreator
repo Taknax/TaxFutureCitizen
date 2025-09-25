@@ -446,7 +446,8 @@
         "files": [
           "src/main/java/tax/taknax/tax_future_citizen/client/screens/SpaceHelmetOverlayOverlay.java"
         ]
-      }
+      },
+      "path": "~/overlays"
     },
     {
       "name": "SpaceHelmetOverlayJetpackLabel",
@@ -620,7 +621,348 @@
           "src/main/resources/assets/tax_future_citizen/models/item/arc_catalyst.json",
           "src/main/java/tax/taknax/tax_future_citizen/item/ArcCatalystItem.java"
         ]
-      }
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SpaceHelmetOverlayBlackSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_black_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayBlackSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayBlueSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_blue_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayBlueSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayLightBlueSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_light_blue_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayLightBlueSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayBrownSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_brown_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayBrownSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayCyanSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_cyan_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayCyanSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayGraySaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_gray_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayGraySaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayLightGraySaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_light_gray_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayLightGraySaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayGreenSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_green_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayGreenSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayLightGreenSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_light_green_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayLightGreenSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayMagentaSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_magenta_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayMagentaSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayOrangeSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_orange_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayOrangeSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayPinkSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_pink_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayPinkSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayPurpleSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_purple_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayPurpleSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayRedSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_red_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayRedSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayWhiteSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_white_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayWhiteSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayYelliowSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_yelliow_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayYelliowSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayOffSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_off_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayOffSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
     }
   ],
   "variable_elements": [],
@@ -748,7 +1090,7 @@
       "item.tax_future_citizen.lightsaber_gray_light": "Gray Lightsaber",
       "item.tax_future_citizen.lightsaber_white": "White Lightsaber",
       "item.tax_future_citizen.lightsaber_yellow": "Yellow Lightsaber",
-      "item.tax_future_citizen.lightsaber_off": "Yellow Lightsaber",
+      "item.tax_future_citizen.lightsaber_off": "Lightsaber Handle",
       "key.tax_future_citizen.space_suit": "Jet Pack Hotkey",
       "subtitles.jet_pack_sound": "",
       "subtitles.lightsaber_swing_sound": "",
@@ -798,6 +1140,14 @@
       },
       {
         "name": "keys",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "overlays",
         "children": []
       }
     ]

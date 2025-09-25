@@ -9,7 +9,7 @@
     "customModelName": "lightsaber_off:default",
     "blockingModelName": "Normal blocking",
     "guiTexture": "lightsaber_off_item",
-    "name": "Yellow Lightsaber",
+    "name": "Lightsaber Handle",
     "specialInformation": {
       "fixedValue": []
     },
