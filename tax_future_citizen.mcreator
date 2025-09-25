@@ -437,26 +437,6 @@
       "path": "~/mechanics"
     },
     {
-      "name": "SpaceHelmetOverlayMechanic",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "space_helmet_overlay_mechanic",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayMechanicProcedure.java"
-        ]
-      },
-      "path": "~/mechanics"
-    },
-    {
       "name": "SpaceHelmetOverlay",
       "type": "overlay",
       "compiles": true,
@@ -578,6 +558,66 @@
         ],
         "files": [
           "src/main/java/tax/taknax/tax_future_citizen/procedures/JetPackHotkeyReleasedProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayHelmetLabel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_helmet_label",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayHelmetLabelProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayLeggingsLabel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_leggings_label",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayLeggingsLabelProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayBootsLabel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_boots_label",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayBootsLabelProcedure.java"
         ]
       },
       "path": "~/mechanics"
@@ -719,7 +759,7 @@
       "item.tax_future_citizen.space_suit_leggings": "Space Pant",
       "item.tax_future_citizen.space_suit_chestplate": "Jet Pack",
       "item.space_suit.space_suit_chestplate": "Jet Pack",
-      "gui.tax_future_citizen.space_helmet_overlay.label_fuel": "Fuel \u003cENBT:integer:displayFuel\u003eseconds",
+      "gui.tax_future_citizen.space_helmet_overlay.label_fuel": "Fuel \u003cENBT:integer:displayFuel\u003eArc Energy",
       "item.tax_future_citizen.arc_energy": "Arc Energy",
       "key.tax_future_citizen.jet_pack_key": "Jet Pack Hotkey"
     }

@@ -1,7 +1,9 @@
 package tax.taknax.tax_future_citizen.client.screens;
 
-import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayMechanicProcedure;
+import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayLeggingsLabelProcedure;
 import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayJetpackLabelProcedure;
+import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayHelmetLabelProcedure;
+import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayBootsLabelProcedure;
 
 import org.checkerframework.checker.units.qual.h;
 
@@ -44,12 +46,21 @@ public class SpaceHelmetOverlayOverlay {
 		RenderSystem.setShader(GameRenderer::getPositionTexShader);
 		RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 		RenderSystem.setShaderColor(1, 1, 1, 1);
-		if (SpaceHelmetOverlayMechanicProcedure.execute(entity)) {
+		if (SpaceHelmetOverlayHelmetLabelProcedure.execute(entity)) {
 			if (SpaceHelmetOverlayJetpackLabelProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/jet_pack_item.png"), w / 2 + -207, h / 2 + -112, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/jet_pack_item.png"), w / 2 + -207, h / 2 + -94, 0, 0, 16, 16, 16, 16);
+			}
+			if (SpaceHelmetOverlayBootsLabelProcedure.execute(entity)) {
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/space_boots_item.png"), w / 2 + -207, h / 2 + -58, 0, 0, 16, 16, 16, 16);
+			}
+			if (SpaceHelmetOverlayHelmetLabelProcedure.execute(entity)) {
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/space_helmet_item.png"), w / 2 + -207, h / 2 + -112, 0, 0, 16, 16, 16, 16);
+			}
+			if (SpaceHelmetOverlayLeggingsLabelProcedure.execute(entity)) {
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/space_leggings_item.png"), w / 2 + -207, h / 2 + -76, 0, 0, 16, 16, 16, 16);
 			}
 			if (SpaceHelmetOverlayJetpackLabelProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_fuel"), w / 2 + -183, h / 2 + -109, -16711936, false);
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_fuel"), w / 2 + -183, h / 2 + -91, -16711936, false);
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

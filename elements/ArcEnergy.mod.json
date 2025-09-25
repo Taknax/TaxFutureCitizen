@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "minecraft:diamond_sword",
+    "texture": "arc_energy",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},

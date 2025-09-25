@@ -5,25 +5,11 @@
     "priority": "NORMAL",
     "components": [
       {
-        "type": "image",
-        "data": {
-          "image": "jet_pack_item.png",
-          "use1Xscale": false,
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayJetpackLabel"
-          },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 8,
-          "locked": false
-        }
-      },
-      {
         "type": "label",
         "data": {
           "name": "label_fuel",
           "text": {
-            "fixedValue": "Fuel <ENBT:integer:displayFuel>seconds"
+            "fixedValue": "Fuel <ENBT:integer:displayFuel>Arc Energy"
           },
           "color": {
             "value": -16711936,
@@ -34,7 +20,63 @@
           },
           "anchorPoint": "CENTER",
           "x": 30,
-          "y": 11,
+          "y": 29,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "jet_pack_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayJetpackLabel"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 26,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "space_boots_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayBootsLabel"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "space_helmet_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayHelmetLabel"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 8,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "space_leggings_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SpaceHelmetOverlayLeggingsLabel"
+          },
+          "anchorPoint": "CENTER",
+          "x": 6,
+          "y": 44,
           "locked": false
         }
       }
@@ -42,7 +84,7 @@
     "baseTexture": "",
     "overlayTarget": "Ingame",
     "displayCondition": {
-      "name": "SpaceHelmetOverlayMechanic"
+      "name": "SpaceHelmetOverlayHelmetLabel"
     },
     "gridSettings": {
       "sx": 18,
