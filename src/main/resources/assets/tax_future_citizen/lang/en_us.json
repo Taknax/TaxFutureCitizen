@@ -27,6 +27,6 @@
   "item.tax_future_citizen.space_suit_chestplate": "Jet Pack",
   "item.space_suit.space_suit_chestplate": "Jet Pack",
   "gui.tax_future_citizen.space_helmet_overlay.label_fuel": "Fuel \u003cENBT:integer:displayFuel\u003eArc Energy",
-  "item.tax_future_citizen.arc_energy": "Arc Energy",
-  "key.tax_future_citizen.jet_pack_key": "Jet Pack Hotkey"
+  "key.tax_future_citizen.jet_pack_key": "Jet Pack Hotkey",
+  "item.tax_future_citizen.arc_catalyst": "Arc Energy"
 }

@@ -38,6 +38,6 @@ public class TaxFutureCitizenModTabs {
 				tabData.accept(TaxFutureCitizenModItems.LIGHTSABER_GRAY_LIGHT.get());
 				tabData.accept(TaxFutureCitizenModItems.LIGHTSABER_WHITE.get());
 				tabData.accept(TaxFutureCitizenModItems.LIGHTSABER_YELLOW.get());
-				tabData.accept(TaxFutureCitizenModItems.ARC_ENERGY.get());
+				tabData.accept(TaxFutureCitizenModItems.ARC_CATALYST.get());
 			}).build());
 }

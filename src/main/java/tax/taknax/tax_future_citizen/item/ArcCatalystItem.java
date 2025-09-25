@@ -10,8 +10,8 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
-public class ArcEnergyItem extends Item {
-	public ArcEnergyItem() {
+public class ArcCatalystItem extends Item {
+	public ArcCatalystItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 

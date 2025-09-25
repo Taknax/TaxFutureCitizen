@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "arc_energy",
+    "texture": "arc_catalyst",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},

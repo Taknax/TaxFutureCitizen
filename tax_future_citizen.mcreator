@@ -469,19 +469,6 @@
       "path": "~/mechanics"
     },
     {
-      "name": "ArcEnergy",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arc_energy",
-      "metadata": {
-        "files": [
-          "src/main/java/tax/taknax/tax_future_citizen/item/ArcEnergyItem.java",
-          "src/main/resources/assets/tax_future_citizen/models/item/arc_energy.json"
-        ]
-      }
-    },
-    {
       "name": "ArcEnergyRightclicked",
       "type": "procedure",
       "compiles": true,
@@ -621,6 +608,19 @@
         ]
       },
       "path": "~/mechanics"
+    },
+    {
+      "name": "ArcCatalyst",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arc_catalyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/arc_catalyst.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/ArcCatalystItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -727,7 +727,7 @@
       "LightsaberGrayLight",
       "LightsaberWhite",
       "LightsaberYellow",
-      "ArcEnergy"
+      "ArcCatalyst"
     ]
   },
   "language_map": {
@@ -760,8 +760,8 @@
       "item.tax_future_citizen.space_suit_chestplate": "Jet Pack",
       "item.space_suit.space_suit_chestplate": "Jet Pack",
       "gui.tax_future_citizen.space_helmet_overlay.label_fuel": "Fuel \u003cENBT:integer:displayFuel\u003eArc Energy",
-      "item.tax_future_citizen.arc_energy": "Arc Energy",
-      "key.tax_future_citizen.jet_pack_key": "Jet Pack Hotkey"
+      "key.tax_future_citizen.jet_pack_key": "Jet Pack Hotkey",
+      "item.tax_future_citizen.arc_catalyst": "Arc Energy"
     }
   },
   "metadata": {

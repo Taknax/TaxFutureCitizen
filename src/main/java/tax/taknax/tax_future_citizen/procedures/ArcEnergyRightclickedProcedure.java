@@ -22,7 +22,7 @@ public class ArcEnergyRightclickedProcedure {
 			world = _worldorig;
 		}
 		if (entity instanceof Player _player) {
-			ItemStack _stktoremove = new ItemStack(TaxFutureCitizenModItems.ARC_ENERGY.get());
+			ItemStack _stktoremove = new ItemStack(TaxFutureCitizenModItems.ARC_CATALYST.get());
 			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 		}
 	}
