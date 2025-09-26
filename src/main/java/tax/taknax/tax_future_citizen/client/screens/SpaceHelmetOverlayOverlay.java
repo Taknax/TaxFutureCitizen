@@ -128,7 +128,47 @@ public class SpaceHelmetOverlayOverlay {
 				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_off_item.png"), w / 2 + -212, h / 2 + -35, 0, 0, 16, 16, 16, 16);
 			}
 			if (SpaceHelmetOverlayJetpackLabelProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_fuel"), w / 2 + -183, h / 2 + -91, -16711936, false);
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_fuel"), w / 2 + -180, h / 2 + -91, -16711936, false);
+			if (SpaceHelmetOverlayBootsLabelProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_space_boots"), w / 2 + -180, h / 2 + -55, -16711936, false);
+			if (SpaceHelmetOverlayHelmetLabelProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_space_helmet"), w / 2 + -180, h / 2 + -109, -13369549, false);
+			if (SpaceHelmetOverlayLeggingsLabelProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_space_pant"), w / 2 + -180, h / 2 + -73, -16711936, false);
+			if (SpaceHelmetOverlayBlackSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_black"), w / 2 + -180, h / 2 + -36, -16777216, false);
+			if (SpaceHelmetOverlayBlueSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_blue"), w / 2 + -180, h / 2 + -36, -16776961, false);
+			if (SpaceHelmetOverlayLightBlueSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_light_blue"), w / 2 + -180, h / 2 + -36, -16737793, false);
+			if (SpaceHelmetOverlayBrownSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_brown"), w / 2 + -180, h / 2 + -36, -6737152, false);
+			if (SpaceHelmetOverlayCyanSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_cyan"), w / 2 + -180, h / 2 + -36, -16711681, false);
+			if (SpaceHelmetOverlayGraySaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_gray"), w / 2 + -180, h / 2 + -36, -10066330, false);
+			if (SpaceHelmetOverlayLightGraySaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_light_gray"), w / 2 + -180, h / 2 + -36, -6710887, false);
+			if (SpaceHelmetOverlayGreenSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_green"), w / 2 + -180, h / 2 + -36, -16711936, false);
+			if (SpaceHelmetOverlayLightGreenSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_light_green"), w / 2 + -180, h / 2 + -36, -6684775, false);
+			if (SpaceHelmetOverlayMagentaSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_magenta"), w / 2 + -180, h / 2 + -36, -65434, false);
+			if (SpaceHelmetOverlayOrangeSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_orange"), w / 2 + -180, h / 2 + -36, -26368, false);
+			if (SpaceHelmetOverlayPinkSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_pink"), w / 2 + -180, h / 2 + -36, -39220, false);
+			if (SpaceHelmetOverlayPurpleSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_purple"), w / 2 + -180, h / 2 + -36, -6749953, false);
+			if (SpaceHelmetOverlayRedSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_red"), w / 2 + -180, h / 2 + -36, -65485, false);
+			if (SpaceHelmetOverlayWhiteSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_white"), w / 2 + -180, h / 2 + -36, -16737793, false);
+			if (SpaceHelmetOverlayYelliowSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_yellow"), w / 2 + -180, h / 2 + -36, -256, false);
+			if (SpaceHelmetOverlayOffSaberProcedure.execute(entity))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_handle"), w / 2 + -180, h / 2 + -36, -3355444, false);
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

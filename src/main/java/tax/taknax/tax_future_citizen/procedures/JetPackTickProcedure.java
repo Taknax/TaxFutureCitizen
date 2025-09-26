@@ -22,7 +22,7 @@ public class JetPackTickProcedure {
 			if (world instanceof ServerLevel _level)
 				_level.sendParticles(ParticleTypes.FLAME, x, y, z, 2, 0.1, 0.1, 0.1, 1);
 			if (world instanceof ServerLevel _level)
-				_level.sendParticles(ParticleTypes.SMOKE, x, y, z, 2, 3, 3, 3, 1);
+				_level.sendParticles(ParticleTypes.SMOKE, x, y, z, 2, 1, 1, 1, 1);
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("tax_future_citizen:jet_pack_sound")), SoundSource.NEUTRAL, 1, 1);
