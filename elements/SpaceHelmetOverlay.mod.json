@@ -58,7 +58,8 @@
         "data": {
           "name": "label_space_boots",
           "text": {
-            "fixedValue": "Space Boots"
+            "fixedValue": "Space Boots",
+            "name": "BootsTimer"
           },
           "color": {
             "value": -16711936,
@@ -92,7 +93,8 @@
         "data": {
           "name": "label_space_helmet",
           "text": {
-            "fixedValue": "Space Helmet"
+            "fixedValue": "Space Helmet",
+            "name": "HelmetTimer"
           },
           "color": {
             "value": -13369549,
@@ -126,7 +128,8 @@
         "data": {
           "name": "label_space_pant",
           "text": {
-            "fixedValue": "Space Pant"
+            "fixedValue": "Space Pant",
+            "name": "LeggingsTimer"
           },
           "color": {
             "value": -16711936,

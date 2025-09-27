@@ -21,7 +21,10 @@ import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayBrownSaberProc
 import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayBootsLabelProcedure;
 import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayBlueSaberProcedure;
 import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayBlackSaberProcedure;
+import tax.taknax.tax_future_citizen.procedures.LeggingsTimerProcedure;
 import tax.taknax.tax_future_citizen.procedures.JetPackTimerProcedure;
+import tax.taknax.tax_future_citizen.procedures.HelmetTimerProcedure;
+import tax.taknax.tax_future_citizen.procedures.BootsTimerProcedure;
 
 import org.checkerframework.checker.units.qual.h;
 
@@ -133,11 +136,17 @@ public class SpaceHelmetOverlayOverlay {
 
 						JetPackTimerProcedure.execute(entity), w / 2 + -180, h / 2 + -91, -16711936, false);
 			if (SpaceHelmetOverlayBootsLabelProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_space_boots"), w / 2 + -180, h / 2 + -55, -16711936, false);
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font,
+
+						BootsTimerProcedure.execute(entity), w / 2 + -180, h / 2 + -55, -16711936, false);
 			if (SpaceHelmetOverlayHelmetLabelProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_space_helmet"), w / 2 + -180, h / 2 + -109, -13369549, false);
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font,
+
+						HelmetTimerProcedure.execute(entity), w / 2 + -180, h / 2 + -109, -13369549, false);
 			if (SpaceHelmetOverlayLeggingsLabelProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_space_pant"), w / 2 + -180, h / 2 + -73, -16711936, false);
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font,
+
+						LeggingsTimerProcedure.execute(entity), w / 2 + -180, h / 2 + -73, -16711936, false);
 			if (SpaceHelmetOverlayBlackSaberProcedure.execute(entity))
 				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_black"), w / 2 + -180, h / 2 + -36, -16777216, false);
 			if (SpaceHelmetOverlayBlueSaberProcedure.execute(entity))
