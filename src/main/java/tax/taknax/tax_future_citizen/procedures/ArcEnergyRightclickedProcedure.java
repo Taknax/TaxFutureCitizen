@@ -2,6 +2,8 @@ package tax.taknax.tax_future_citizen.procedures;
 
 import tax.taknax.tax_future_citizen.init.TaxFutureCitizenModItems;
 
+import net.minecraftforge.items.ItemHandlerHelper;
+
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -26,8 +28,13 @@ public class ArcEnergyRightclickedProcedure {
 				world = _worldorig;
 			}
 			if (entity instanceof Player _player) {
-				ItemStack _stktoremove = new ItemStack(TaxFutureCitizenModItems.ARC_CATALYST.get());
+				ItemStack _stktoremove = new ItemStack(TaxFutureCitizenModItems.FLUX_CATALYST.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(TaxFutureCitizenModItems.FLUX_CATALYST_CONUSMED.get()).copy();
+				_setstack.setCount(1);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}
 		}
 	}

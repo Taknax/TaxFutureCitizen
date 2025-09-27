@@ -96,13 +96,13 @@
     "bootsPiglinNeutral": {
       "fixedValue": true
     },
-    "maxDamage": 15,
-    "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 5,
+    "maxDamage": 20,
+    "damageValueHelmet": 3,
+    "damageValueBody": 7,
+    "damageValueLeggings": 6,
     "damageValueBoots": 2,
-    "enchantability": 9,
-    "toughness": 0.0,
+    "enchantability": 10,
+    "toughness": 1.0,
     "knockbackResistance": 0.0,
     "equipSound": {
       "value": "item.armor.equip_iron"

@@ -41,17 +41,17 @@ public abstract class SpaceSuitItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(ArmorItem.Type type) {
-				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 15;
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 20;
 			}
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{2, 5, 6, 2}[type.getSlot().getIndex()];
+				return new int[]{2, 6, 7, 3}[type.getSlot().getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 9;
+				return 10;
 			}
 
 			@Override
@@ -71,7 +71,7 @@ public abstract class SpaceSuitItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 1f;
 			}
 
 			@Override

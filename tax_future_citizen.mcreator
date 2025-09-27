@@ -470,29 +470,6 @@
       "path": "~/mechanics"
     },
     {
-      "name": "ArcEnergyRightclicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arc_energy_rightclicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/tax/taknax/tax_future_citizen/procedures/ArcEnergyRightclickedProcedure.java"
-        ]
-      },
-      "path": "~/mechanics"
-    },
-    {
       "name": "JetPackTick",
       "type": "procedure",
       "compiles": true,
@@ -605,20 +582,6 @@
         ]
       },
       "path": "~/mechanics"
-    },
-    {
-      "name": "ArcCatalyst",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arc_catalyst",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/tax_future_citizen/models/item/arc_catalyst.json",
-          "src/main/java/tax/taknax/tax_future_citizen/item/ArcCatalystItem.java"
-        ]
-      },
-      "path": "~/items"
     },
     {
       "name": "SpaceHelmetOverlayBlackSaber",
@@ -1039,6 +1002,135 @@
         ]
       },
       "path": "~/mechanics"
+    },
+    {
+      "name": "FluxEnergyConume",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flux_energy_conume",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/FluxEnergyConumeProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "FluxCatalyst",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flux_catalyst",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/FluxCatalystItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/flux_catalyst.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "FluxCatalystConusmed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flux_catalyst_conusmed",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/FluxCatalystConusmedItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/flux_catalyst_conusmed.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RecipeFluxCatalyst",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_flux_catalyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_flux_catalyst.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeFluxCatalystConsumed",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_flux_catalyst_consumed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_flux_catalyst_consumed.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeSpaceSuitHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_space_suit_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_space_suit_helmet.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeSpaceSuitChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_space_suit_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_space_suit_chestplate.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeSpaceSuitLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_space_suit_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_space_suit_leggings.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeSpaceSuitBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_space_suit_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_space_suit_boots.json"
+        ]
+      },
+      "path": "~/armors"
     }
   ],
   "variable_elements": [],
@@ -1145,7 +1237,8 @@
       "LightsaberGrayLight",
       "LightsaberWhite",
       "LightsaberYellow",
-      "ArcCatalyst"
+      "FluxCatalyst",
+      "FluxCatalystConusmed"
     ]
   },
   "language_map": {
@@ -1179,7 +1272,6 @@
       "item.space_suit.space_suit_chestplate": "Jet Pack",
       "gui.tax_future_citizen.space_helmet_overlay.label_fuel": "Jet Pack Fuel: \u003cENBT:integer:displayFuel\u003e Arc Energy",
       "key.tax_future_citizen.jet_pack_key": "Jet Pack Hotkey",
-      "item.tax_future_citizen.arc_catalyst": "Arc Energy",
       "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_green": "Lightsaber Green",
       "gui.tax_future_citizen.space_helmet_overlay.label_space_pant": "Space Pant",
       "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_blue": "Lightsaber Blue",
@@ -1199,7 +1291,9 @@
       "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_gray": "Lightsaber Dark Gray",
       "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_magenta": "Lightsaber Magenta",
       "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_light_green": "Lightsaber Lime Green",
-      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_black": "Lightsaber Black"
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_black": "Lightsaber Black",
+      "item.tax_future_citizen.flux_catalyst": "Arc Energy",
+      "item.tax_future_citizen.flux_catalyst_conusmed": "Arc Energy"
     }
   },
   "metadata": {

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:redstone"
+    },
+    "b": {
+      "item": "tax_future_citizen:flux_catalyst_conusmed"
+    }
+  },
+  "result": {
+    "item": "tax_future_citizen:flux_catalyst",
+    "count": 2
+  }
+}

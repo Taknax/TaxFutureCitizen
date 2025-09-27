@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "arc_catalyst",
+    "texture": "flux_catalyst",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
@@ -38,7 +38,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 99,
     "onRightClickedInAir": {
-      "name": "ArcEnergyRightclicked"
+      "name": "FluxEnergyConume"
     },
     "enableRanged": false,
     "shootConstantly": false,
