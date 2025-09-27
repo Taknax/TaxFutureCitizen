@@ -482,10 +482,6 @@
             "type": "entity"
           },
           {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -963,6 +959,26 @@
         ]
       },
       "path": "~/mechanics"
+    },
+    {
+      "name": "JetPackTimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jet_pack_timer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/JetPackTimerProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
     }
   ],
   "variable_elements": [],
@@ -1101,7 +1117,7 @@
       "item.tax_future_citizen.space_suit_leggings": "Space Pant",
       "item.tax_future_citizen.space_suit_chestplate": "Jet Pack",
       "item.space_suit.space_suit_chestplate": "Jet Pack",
-      "gui.tax_future_citizen.space_helmet_overlay.label_fuel": "Fuel: \u003cENBT:number:displayFuel\u003e Arc Energy",
+      "gui.tax_future_citizen.space_helmet_overlay.label_fuel": "Jet Pack Fuel: \u003cENBT:integer:displayFuel\u003e Arc Energy",
       "key.tax_future_citizen.jet_pack_key": "Jet Pack Hotkey",
       "item.tax_future_citizen.arc_catalyst": "Arc Energy",
       "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_green": "Lightsaber Green",

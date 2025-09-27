@@ -1,5 +1,6 @@
 package tax.taknax.tax_future_citizen.item;
 
+import tax.taknax.tax_future_citizen.procedures.MechanicSpaceHelmetProcedure;
 import tax.taknax.tax_future_citizen.procedures.MechanicSpaceBootsProcedure;
 import tax.taknax.tax_future_citizen.procedures.JetPackTickProcedure;
 import tax.taknax.tax_future_citizen.client.model.Modelspace_leggings;
@@ -112,6 +113,14 @@ public abstract class SpaceSuitItem extends ArmorItem {
 		@Override
 		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
 			return true;
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
+				MechanicSpaceHelmetProcedure.execute(entity);
+			}
 		}
 	}
 

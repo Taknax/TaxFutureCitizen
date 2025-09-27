@@ -1,0 +1,26 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-26 17:10:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_pine_taiga": "2025-09-26 21:00:48 +0200",
+      "minecraft:taiga": "2025-09-26 17:10:14 +0200",
+      "minecraft:beach": "2025-09-26 20:15:36 +0200",
+      "minecraft:stony_shore": "2025-09-26 20:15:18 +0200",
+      "minecraft:cold_ocean": "2025-09-26 21:00:38 +0200",
+      "minecraft:frozen_ocean": "2025-09-26 21:00:39 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-09-26 20:55:07 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

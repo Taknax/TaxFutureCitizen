@@ -21,6 +21,7 @@ import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayBrownSaberProc
 import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayBootsLabelProcedure;
 import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayBlueSaberProcedure;
 import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayBlackSaberProcedure;
+import tax.taknax.tax_future_citizen.procedures.JetPackTimerProcedure;
 
 import org.checkerframework.checker.units.qual.h;
 
@@ -128,7 +129,9 @@ public class SpaceHelmetOverlayOverlay {
 				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_off_item.png"), w / 2 + -212, h / 2 + -35, 0, 0, 16, 16, 16, 16);
 			}
 			if (SpaceHelmetOverlayJetpackLabelProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_fuel"), w / 2 + -180, h / 2 + -91, -16711936, false);
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font,
+
+						JetPackTimerProcedure.execute(entity), w / 2 + -180, h / 2 + -91, -16711936, false);
 			if (SpaceHelmetOverlayBootsLabelProcedure.execute(entity))
 				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_space_boots"), w / 2 + -180, h / 2 + -55, -16711936, false);
 			if (SpaceHelmetOverlayHelmetLabelProcedure.execute(entity))

@@ -18,7 +18,7 @@ public class MechanicSpaceSuitProcedure {
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == TaxFutureCitizenModItems.SPACE_SUIT_LEGGINGS.get()
 				&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == TaxFutureCitizenModItems.SPACE_SUIT_BOOTS.get()) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, 60, 0, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 10, false, false));
 		}
 	}
 }

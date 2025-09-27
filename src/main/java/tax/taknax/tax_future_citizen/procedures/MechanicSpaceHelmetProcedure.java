@@ -13,9 +13,9 @@ public class MechanicSpaceHelmetProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == TaxFutureCitizenModItems.SPACE_SUIT_HELMET.get()) {
+		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == TaxFutureCitizenModItems.SPACE_SUIT_HELMET.get()) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, 60, 10, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, 200, 10, false, false));
 		}
 	}
 }

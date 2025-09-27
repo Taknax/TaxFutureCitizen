@@ -23,7 +23,8 @@
         "data": {
           "name": "label_fuel",
           "text": {
-            "fixedValue": "Fuel: <ENBT:number:displayFuel> Arc Energy"
+            "fixedValue": "Jet Pack Fuel: <ENBT:integer:displayFuel> Arc Energy",
+            "name": "JetPackTimer"
           },
           "color": {
             "value": -16711936,
