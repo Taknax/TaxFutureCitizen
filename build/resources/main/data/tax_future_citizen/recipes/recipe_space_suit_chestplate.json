@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "base": {
+    "item": "minecraft:redstone"
+  },
+  "addition": {
+    "item": "minecraft:glass"
+  },
+  "result": {
+    "item": "tax_future_citizen:space_suit_chestplate"
+  }
+}

@@ -21,10 +21,7 @@ import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayBrownSaberProc
 import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayBootsLabelProcedure;
 import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayBlueSaberProcedure;
 import tax.taknax.tax_future_citizen.procedures.SpaceHelmetOverlayBlackSaberProcedure;
-import tax.taknax.tax_future_citizen.procedures.LeggingsTimerProcedure;
 import tax.taknax.tax_future_citizen.procedures.JetPackTimerProcedure;
-import tax.taknax.tax_future_citizen.procedures.HelmetTimerProcedure;
-import tax.taknax.tax_future_citizen.procedures.BootsTimerProcedure;
 
 import org.checkerframework.checker.units.qual.h;
 
@@ -37,7 +34,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
 import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.client.Minecraft;
 
@@ -69,118 +65,72 @@ public class SpaceHelmetOverlayOverlay {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (SpaceHelmetOverlayHelmetLabelProcedure.execute(entity)) {
 			if (SpaceHelmetOverlayJetpackLabelProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/jet_pack_item.png"), w / 2 + -207, h / 2 + -94, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/jet_pack_item.png"), 6, 8, 0, 0, 16, 16, 16, 16);
 			}
 			if (SpaceHelmetOverlayBootsLabelProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/space_boots_item.png"), w / 2 + -207, h / 2 + -58, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/space_boots_item.png"), 24, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayHelmetLabelProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/space_helmet_item.png"), w / 2 + -207, h / 2 + -112, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/space_helmet_item.png"), 6, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayLeggingsLabelProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/space_leggings_item.png"), w / 2 + -207, h / 2 + -76, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/space_leggings_item.png"), 15, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayBlackSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_black_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_black_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayBlueSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_blue_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_blue_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayLightBlueSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_blue_light_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_blue_light_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayBrownSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_brown_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_brown_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayCyanSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_cyan_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_cyan_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayGraySaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_gray_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_gray_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayLightGraySaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_gray_light_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_gray_light_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayGreenSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_green_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_green_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayLightGreenSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_green_light_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_green_light_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayMagentaSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_magenta_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_magenta_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayOrangeSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_orange_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_orange_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayPinkSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_pink_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_pink_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayPurpleSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_purple_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_purple_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayRedSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_red_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_red_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayWhiteSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_white_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_white_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayYelliowSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_yellow_item.png"), w / 2 + -207, h / 2 + -40, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_yellow_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayOffSaberProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_off_item.png"), w / 2 + -212, h / 2 + -35, 0, 0, 16, 16, 16, 16);
+				event.getGuiGraphics().blit(ResourceLocation.parse("tax_future_citizen:textures/screens/lightsaber_off_item.png"), 33, h - 16, 0, 0, 8, 8, 8, 8);
 			}
 			if (SpaceHelmetOverlayJetpackLabelProcedure.execute(entity))
 				event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
-						JetPackTimerProcedure.execute(entity), w / 2 + -180, h / 2 + -91, -16711936, false);
-			if (SpaceHelmetOverlayBootsLabelProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font,
-
-						BootsTimerProcedure.execute(entity), w / 2 + -180, h / 2 + -55, -16711936, false);
-			if (SpaceHelmetOverlayHelmetLabelProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font,
-
-						HelmetTimerProcedure.execute(entity), w / 2 + -180, h / 2 + -109, -13369549, false);
-			if (SpaceHelmetOverlayLeggingsLabelProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font,
-
-						LeggingsTimerProcedure.execute(entity), w / 2 + -180, h / 2 + -73, -16711936, false);
-			if (SpaceHelmetOverlayBlackSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_black"), w / 2 + -180, h / 2 + -36, -16777216, false);
-			if (SpaceHelmetOverlayBlueSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_blue"), w / 2 + -180, h / 2 + -36, -16776961, false);
-			if (SpaceHelmetOverlayLightBlueSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_light_blue"), w / 2 + -180, h / 2 + -36, -16737793, false);
-			if (SpaceHelmetOverlayBrownSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_brown"), w / 2 + -180, h / 2 + -36, -6737152, false);
-			if (SpaceHelmetOverlayCyanSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_cyan"), w / 2 + -180, h / 2 + -36, -16711681, false);
-			if (SpaceHelmetOverlayGraySaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_gray"), w / 2 + -180, h / 2 + -36, -10066330, false);
-			if (SpaceHelmetOverlayLightGraySaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_light_gray"), w / 2 + -180, h / 2 + -36, -6710887, false);
-			if (SpaceHelmetOverlayGreenSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_green"), w / 2 + -180, h / 2 + -36, -16711936, false);
-			if (SpaceHelmetOverlayLightGreenSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_light_green"), w / 2 + -180, h / 2 + -36, -6684775, false);
-			if (SpaceHelmetOverlayMagentaSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_magenta"), w / 2 + -180, h / 2 + -36, -65434, false);
-			if (SpaceHelmetOverlayOrangeSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_orange"), w / 2 + -180, h / 2 + -36, -26368, false);
-			if (SpaceHelmetOverlayPinkSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_pink"), w / 2 + -180, h / 2 + -36, -39220, false);
-			if (SpaceHelmetOverlayPurpleSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_purple"), w / 2 + -180, h / 2 + -36, -6749953, false);
-			if (SpaceHelmetOverlayRedSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_red"), w / 2 + -180, h / 2 + -36, -65485, false);
-			if (SpaceHelmetOverlayWhiteSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_white"), w / 2 + -180, h / 2 + -36, -16737793, false);
-			if (SpaceHelmetOverlayYelliowSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_yellow"), w / 2 + -180, h / 2 + -36, -256, false);
-			if (SpaceHelmetOverlayOffSaberProcedure.execute(entity))
-				event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_handle"), w / 2 + -180, h / 2 + -36, -3355444, false);
+						JetPackTimerProcedure.execute(entity), 29, 13, -16711936, false);
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

@@ -1,13 +1,13 @@
 {
-  "jet_pack_sound": {
+  "lightsaber_ignition": {
     "sounds": [
       {
-        "name": "tax_future_citizen:jet_pack_sound",
+        "name": "tax_future_citizen:lightsaber_ignition",
         "stream": false
       }
     ]
   },
-  "lightsaber_swing_sound": {
+  "lightsaber_swing": {
     "sounds": [
       {
         "name": "tax_future_citizen:lightsaber_swing",
@@ -15,10 +15,18 @@
       }
     ]
   },
-  "lightsaber_ignition_sound": {
+  "flux_catalyst": {
     "sounds": [
       {
-        "name": "tax_future_citizen:lightsaber_ignition",
+        "name": "tax_future_citizen:flux_catalyst",
+        "stream": false
+      }
+    ]
+  },
+  "jet_pack_sound": {
+    "sounds": [
+      {
+        "name": "tax_future_citizen:jet_pack_sound",
         "stream": false
       }
     ]

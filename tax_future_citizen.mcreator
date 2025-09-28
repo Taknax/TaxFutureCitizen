@@ -249,6 +249,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -309,6 +325,10 @@
       "registry_name": "lightsaber_ignition_sound",
       "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -1016,6 +1036,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -1131,20 +1163,241 @@
         ]
       },
       "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaber",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberWhite",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_white",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_white.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberBlack",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_black",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_black.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberBlue",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_blue.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberBlueLight",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_blue_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_blue_light.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberRed",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_red",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_red.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberYellow",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_yellow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_yellow.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberGray",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_gray",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_gray.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberGreen",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_green",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_green.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberGreenLight",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_green_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_green_light.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberGrayLight",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_gray_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_gray_light.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberOrange",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_orange",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_orange.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberPurple",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_purple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_purple.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberPink",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_pink",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_pink.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberBrown",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_brown",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_brown.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberCyan",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_cyan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_cyan.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "RecipeLightsaberMagenta",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_magenta",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_magenta.json"
+        ]
+      },
+      "path": "~/armors"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
     {
-      "name": "jet_pack_sound",
+      "name": "lightsaber_ignition",
       "files": [
-        "jet_pack_sound"
+        "lightsaber_ignition"
       ],
       "category": "neutral",
       "subtitle": ""
     },
     {
-      "name": "lightsaber_swing_sound",
+      "name": "lightsaber_swing",
       "files": [
         "lightsaber_swing"
       ],
@@ -1152,9 +1405,17 @@
       "subtitle": ""
     },
     {
-      "name": "lightsaber_ignition_sound",
+      "name": "flux_catalyst",
       "files": [
-        "lightsaber_ignition"
+        "flux_catalyst"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "jet_pack_sound",
+      "files": [
+        "jet_pack_sound"
       ],
       "category": "neutral",
       "subtitle": ""
@@ -1215,6 +1476,24 @@
       "~CUSTOM:LightsaberBlueLight",
       "~CUSTOM:LightsaberBlue",
       "~CUSTOM:LightsaberBlack"
+    ],
+    "ITEMS:forge:items/lightsaber": [
+      "CUSTOM:LightsaberBlack",
+      "CUSTOM:LightsaberBlue",
+      "CUSTOM:LightsaberBlueLight",
+      "CUSTOM:LightsaberBrown",
+      "CUSTOM:LightsaberCyan",
+      "CUSTOM:LightsaberGray",
+      "CUSTOM:LightsaberGrayLight",
+      "CUSTOM:LightsaberGreen",
+      "CUSTOM:LightsaberGreenLight",
+      "CUSTOM:LightsaberMagenta",
+      "CUSTOM:LightsaberOrange",
+      "CUSTOM:LightsaberPink",
+      "CUSTOM:LightsaberPurple",
+      "CUSTOM:LightsaberRed",
+      "CUSTOM:LightsaberWhite",
+      "CUSTOM:LightsaberYellow"
     ]
   },
   "tab_element_order": {
@@ -1260,7 +1539,7 @@
       "item.tax_future_citizen.lightsaber_white": "White Lightsaber",
       "item.tax_future_citizen.lightsaber_yellow": "Yellow Lightsaber",
       "item.tax_future_citizen.lightsaber_off": "Lightsaber Handle",
-      "key.tax_future_citizen.space_suit": "Jet Pack Hotkey",
+      "key.categories.space_suit": "Jet Pack Hotkey",
       "subtitles.jet_pack_sound": "",
       "subtitles.lightsaber_swing_sound": "",
       "subtitles.lightsaber_ignition_sound": "",
@@ -1292,8 +1571,11 @@
       "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_magenta": "Lightsaber Magenta",
       "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_light_green": "Lightsaber Lime Green",
       "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_black": "Lightsaber Black",
-      "item.tax_future_citizen.flux_catalyst": "Arc Energy",
-      "item.tax_future_citizen.flux_catalyst_conusmed": "Arc Energy"
+      "item.tax_future_citizen.flux_catalyst": "Flux Catalyst",
+      "item.tax_future_citizen.flux_catalyst_conusmed": "Empty Flux Catalyst",
+      "subtitles.lightsaber_ignition": "",
+      "subtitles.lightsaber_swing": "",
+      "subtitles.flux_catalyst": ""
     }
   },
   "metadata": {
@@ -1348,9 +1630,9 @@
     "version": "1.0.0",
     "description": "Future Citizen is a Minecraft moodifikation aims to bring the future.",
     "author": "Taknax, LeonX",
+    "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
-    "modPicture": "tax_future__citizen",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

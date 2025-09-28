@@ -16,7 +16,7 @@
   "item.tax_future_citizen.lightsaber_white": "White Lightsaber",
   "item.tax_future_citizen.lightsaber_yellow": "Yellow Lightsaber",
   "item.tax_future_citizen.lightsaber_off": "Lightsaber Handle",
-  "key.tax_future_citizen.space_suit": "Jet Pack Hotkey",
+  "key.categories.space_suit": "Jet Pack Hotkey",
   "subtitles.jet_pack_sound": "",
   "subtitles.lightsaber_swing_sound": "",
   "subtitles.lightsaber_ignition_sound": "",
@@ -48,6 +48,9 @@
   "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_magenta": "Lightsaber Magenta",
   "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_light_green": "Lightsaber Lime Green",
   "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_black": "Lightsaber Black",
-  "item.tax_future_citizen.flux_catalyst": "Arc Energy",
-  "item.tax_future_citizen.flux_catalyst_conusmed": "Arc Energy"
+  "item.tax_future_citizen.flux_catalyst": "Flux Catalyst",
+  "item.tax_future_citizen.flux_catalyst_conusmed": "Empty Flux Catalyst",
+  "subtitles.lightsaber_ignition": "",
+  "subtitles.lightsaber_swing": "",
+  "subtitles.flux_catalyst": ""
 }

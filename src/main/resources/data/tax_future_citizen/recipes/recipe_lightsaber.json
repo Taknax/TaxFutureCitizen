@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lightsaber",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "tax_future_citizen:flux_catalyst"
+    },
+    "b": {
+      "item": "tax_future_citizen:lightsaber_off"
+    }
+  },
+  "result": {
+    "item": "tax_future_citizen:lightsaber_white",
+    "count": 1
+  }
+}

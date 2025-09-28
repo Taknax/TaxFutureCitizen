@@ -17,9 +17,9 @@ public class JetPackTickProcedure {
 				((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getOrCreateTag().getDouble("fuel") / 20));
 		if (entity instanceof LivingEntity _livEnt4 && _livEnt4.hasEffect(MobEffects.LEVITATION)) {
 			if (world instanceof ServerLevel _level)
-				_level.sendParticles(ParticleTypes.FLAME, x, y, z, 2, 0.1, 0.1, 0.1, 1);
+				_level.sendParticles(ParticleTypes.FLAME, x, y, z, 2, 1, 1, 1, 1);
 			if (world instanceof ServerLevel _level)
-				_level.sendParticles(ParticleTypes.SMOKE, x, y, z, 2, 1, 1, 1, 1);
+				_level.sendParticles(ParticleTypes.CAMPFIRE_COSY_SMOKE, x, y, z, 2, 1, 1, 1, 1);
 			(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getOrCreateTag().putDouble("fuel",
 					((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getOrCreateTag().getDouble("fuel") - 1));
 			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getOrCreateTag().getDouble("fuel") == 0) {

@@ -93,13 +93,13 @@ public class LightsaberGreenLightItem extends TieredItem {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		itemstack.hurtAndBreak(2, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
-		LightsaberIgnitionSoundProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+		LightsaberIgnitionSoundProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
 		return true;
 	}
 
 	@Override
 	public void onCraftedBy(ItemStack itemstack, Level world, Player entity) {
 		super.onCraftedBy(itemstack, world, entity);
-		LightsaberIgnitionSoundProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
+		LightsaberIgnitionSoundProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 	}
 }

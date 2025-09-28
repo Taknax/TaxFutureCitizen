@@ -86,7 +86,7 @@ public class LightsaberYellowItem extends TieredItem {
 	@Override
 	public boolean mineBlock(ItemStack itemstack, Level world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
 		itemstack.hurtAndBreak(1, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
-		LightsaberIgnitionSoundProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		LightsaberIgnitionSoundProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
 		return true;
 	}
 
@@ -100,6 +100,6 @@ public class LightsaberYellowItem extends TieredItem {
 	@Override
 	public void onCraftedBy(ItemStack itemstack, Level world, Player entity) {
 		super.onCraftedBy(itemstack, world, entity);
-		LightsaberIgnitionSoundProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
+		LightsaberIgnitionSoundProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 	}
 }

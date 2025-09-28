@@ -100,6 +100,6 @@ public class LightsaberCyanItem extends TieredItem {
 	@Override
 	public void onCraftedBy(ItemStack itemstack, Level world, Player entity) {
 		super.onCraftedBy(itemstack, world, entity);
-		LightsaberIgnitionSoundProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
+		LightsaberIgnitionSoundProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 	}
 }

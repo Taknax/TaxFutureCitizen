@@ -12,9 +12,9 @@
           "displayCondition": {
             "name": "SpaceHelmetOverlayJetpackLabel"
           },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "TOP_LEFT",
           "x": 6,
-          "y": 26,
+          "y": 8,
           "locked": false
         }
       },
@@ -33,9 +33,9 @@
           "displayCondition": {
             "name": "SpaceHelmetOverlayJetpackLabel"
           },
-          "anchorPoint": "CENTER",
-          "x": 33,
-          "y": 29,
+          "anchorPoint": "TOP_LEFT",
+          "x": 29,
+          "y": 13,
           "locked": false
         }
       },
@@ -43,34 +43,13 @@
         "type": "image",
         "data": {
           "image": "space_boots_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayBootsLabel"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 62,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_space_boots",
-          "text": {
-            "fixedValue": "Space Boots",
-            "name": "BootsTimer"
-          },
-          "color": {
-            "value": -16711936,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayBootsLabel"
-          },
-          "anchorPoint": "CENTER",
-          "x": 33,
-          "y": 65,
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 24,
+          "y": 224,
           "locked": false
         }
       },
@@ -78,34 +57,13 @@
         "type": "image",
         "data": {
           "image": "space_helmet_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayHelmetLabel"
           },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 6,
-          "y": 8,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_space_helmet",
-          "text": {
-            "fixedValue": "Space Helmet",
-            "name": "HelmetTimer"
-          },
-          "color": {
-            "value": -13369549,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayHelmetLabel"
-          },
-          "anchorPoint": "CENTER",
-          "x": 33,
-          "y": 11,
+          "y": 224,
           "locked": false
         }
       },
@@ -113,34 +71,13 @@
         "type": "image",
         "data": {
           "image": "space_leggings_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayLeggingsLabel"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 44,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_space_pant",
-          "text": {
-            "fixedValue": "Space Pant",
-            "name": "LeggingsTimer"
-          },
-          "color": {
-            "value": -16711936,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayLeggingsLabel"
-          },
-          "anchorPoint": "CENTER",
-          "x": 33,
-          "y": 47,
+          "anchorPoint": "BOTTOM_LEFT",
+          "x": 15,
+          "y": 224,
           "locked": false
         }
       },
@@ -148,33 +85,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_black_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayBlackSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_black",
-          "text": {
-            "fixedValue": "Lightsaber Black"
-          },
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayBlackSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -182,33 +99,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_blue_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayBlueSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_blue",
-          "text": {
-            "fixedValue": "Lightsaber Blue"
-          },
-          "color": {
-            "value": -16776961,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayBlueSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -216,33 +113,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_blue_light_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayLightBlueSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_light_blue",
-          "text": {
-            "fixedValue": "Lightsaber Sky Blue"
-          },
-          "color": {
-            "value": -16737793,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayLightBlueSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -250,33 +127,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_brown_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayBrownSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_brown",
-          "text": {
-            "fixedValue": "Lightsaber Brown"
-          },
-          "color": {
-            "value": -6737152,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayBrownSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -284,33 +141,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_cyan_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayCyanSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_cyan",
-          "text": {
-            "fixedValue": "Lightsaber Cyan"
-          },
-          "color": {
-            "value": -16711681,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayCyanSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -318,33 +155,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_gray_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayGraySaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_gray",
-          "text": {
-            "fixedValue": "Lightsaber Dark Gray"
-          },
-          "color": {
-            "value": -10066330,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayGraySaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -352,33 +169,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_gray_light_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayLightGraySaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_light_gray",
-          "text": {
-            "fixedValue": "Lightsaber Gray"
-          },
-          "color": {
-            "value": -6710887,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayLightGraySaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -386,33 +183,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_green_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayGreenSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_green",
-          "text": {
-            "fixedValue": "Lightsaber Green"
-          },
-          "color": {
-            "value": -16711936,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayGreenSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -420,33 +197,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_green_light_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayLightGreenSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_light_green",
-          "text": {
-            "fixedValue": "Lightsaber Lime Green"
-          },
-          "color": {
-            "value": -6684775,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayLightGreenSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -454,33 +211,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_magenta_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayMagentaSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_magenta",
-          "text": {
-            "fixedValue": "Lightsaber Magenta"
-          },
-          "color": {
-            "value": -65434,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayMagentaSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -488,33 +225,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_orange_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayOrangeSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_orange",
-          "text": {
-            "fixedValue": "Lightsaber Orange"
-          },
-          "color": {
-            "value": -26368,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayOrangeSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -522,33 +239,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_pink_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayPinkSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_pink",
-          "text": {
-            "fixedValue": "Lightsaber Pink"
-          },
-          "color": {
-            "value": -39220,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayPinkSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -556,33 +253,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_purple_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayPurpleSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_purple",
-          "text": {
-            "fixedValue": "Lightsaber Purple"
-          },
-          "color": {
-            "value": -6749953,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayPurpleSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -590,33 +267,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_red_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayRedSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_red",
-          "text": {
-            "fixedValue": "Lightsaber Red"
-          },
-          "color": {
-            "value": -65485,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayRedSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -624,33 +281,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_white_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayWhiteSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_white",
-          "text": {
-            "fixedValue": "Lightsaber White"
-          },
-          "color": {
-            "value": -16737793,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayWhiteSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -658,33 +295,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_yellow_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayYelliowSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 6,
-          "y": 80,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_yellow",
-          "text": {
-            "fixedValue": "Lightsaber Yellow"
-          },
-          "color": {
-            "value": -256,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayYelliowSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       },
@@ -692,33 +309,13 @@
         "type": "image",
         "data": {
           "image": "lightsaber_off_item.png",
-          "use1Xscale": false,
+          "use1Xscale": true,
           "displayCondition": {
             "name": "SpaceHelmetOverlayOffSaber"
           },
-          "anchorPoint": "CENTER",
-          "x": 1,
-          "y": 85,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_lightsaber_handle",
-          "text": {
-            "fixedValue": "Lightsaber Handle"
-          },
-          "color": {
-            "value": -3355444,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "SpaceHelmetOverlayOffSaber"
-          },
-          "anchorPoint": "CENTER",
+          "anchorPoint": "BOTTOM_LEFT",
           "x": 33,
-          "y": 84,
+          "y": 224,
           "locked": false
         }
       }

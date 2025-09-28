@@ -10,13 +10,10 @@ public class JetPackTimerProcedure {
 		if (entity == null)
 			return "";
 		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getOrCreateTag().getDouble("displayFuel") < 10) {
-			return "Jet Pack: \u00A74" + (new java.text.DecimalFormat("##").format((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getOrCreateTag().getDouble("displayFuel")))
-					+ "\u00A7r Arc Energy";
+			return "\u00A74" + (new java.text.DecimalFormat("##").format((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getOrCreateTag().getDouble("displayFuel"))) + "\u00A7r FE";
 		} else if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getOrCreateTag().getDouble("displayFuel") < 20) {
-			return "Jet Pack: \u00A76" + (new java.text.DecimalFormat("##").format((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getOrCreateTag().getDouble("displayFuel")))
-					+ "\u00A7r Arc Energy";
+			return "\u00A76" + (new java.text.DecimalFormat("##").format((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getOrCreateTag().getDouble("displayFuel"))) + "\u00A7r FE";
 		}
-		return "Jet Pack: " + (new java.text.DecimalFormat("##").format((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getOrCreateTag().getDouble("displayFuel")))
-				+ "\u00A7r Arc Energy";
+		return (new java.text.DecimalFormat("##").format((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getOrCreateTag().getDouble("displayFuel"))) + " FE";
 	}
 }
