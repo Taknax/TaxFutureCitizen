@@ -500,22 +500,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ],
         "files": [
@@ -1419,6 +1403,14 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "jet_pack_sound_2",
+      "files": [
+        "jet_pack_sound_2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -1575,7 +1567,8 @@
       "item.tax_future_citizen.flux_catalyst_conusmed": "Empty Flux Catalyst",
       "subtitles.lightsaber_ignition": "",
       "subtitles.lightsaber_swing": "",
-      "subtitles.flux_catalyst": ""
+      "subtitles.flux_catalyst": "",
+      "subtitles.jet_pack_sound_2": ""
     }
   },
   "metadata": {

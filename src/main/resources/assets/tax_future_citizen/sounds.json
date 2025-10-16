@@ -30,5 +30,13 @@
         "stream": false
       }
     ]
+  },
+  "jet_pack_sound_2": {
+    "sounds": [
+      {
+        "name": "tax_future_citizen:jet_pack_sound_2",
+        "stream": false
+      }
+    ]
   }
 }

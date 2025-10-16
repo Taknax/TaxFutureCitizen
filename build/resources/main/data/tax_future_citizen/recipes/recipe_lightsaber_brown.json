@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lightsaber",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:brown_stained_glass"
+    },
+    "b": {
+      "tag": "forge:items/lightsaber"
+    }
+  },
+  "result": {
+    "item": "tax_future_citizen:lightsaber_brown",
+    "count": 1
+  }
+}
