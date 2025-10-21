@@ -7,13 +7,20 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:bamboo_jungle": "2025-09-27 22:22:02 +0200"
+      "minecraft:bamboo_jungle": "2025-09-27 22:22:02 +0200",
+      "minecraft:plains": "2025-10-21 04:21:39 +0200"
     },
     "done": false
   },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2025-09-27 22:22:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-10-21 04:21:55 +0200"
     },
     "done": true
   },

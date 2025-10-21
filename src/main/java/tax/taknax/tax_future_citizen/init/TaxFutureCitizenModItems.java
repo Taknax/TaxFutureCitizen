@@ -28,6 +28,7 @@ import tax.taknax.tax_future_citizen.TaxFutureCitizenMod;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.item.Item;
 
@@ -56,6 +57,7 @@ public class TaxFutureCitizenModItems {
 	public static final RegistryObject<Item> SPACE_SUIT_BOOTS = REGISTRY.register("space_suit_boots", () -> new SpaceSuitItem.Boots());
 	public static final RegistryObject<Item> FLUX_CATALYST = REGISTRY.register("flux_catalyst", () -> new FluxCatalystItem());
 	public static final RegistryObject<Item> FLUX_CATALYST_CONUSMED = REGISTRY.register("flux_catalyst_conusmed", () -> new FluxCatalystConusmedItem());
+	public static final RegistryObject<Item> CYBORG_ZOMBIE_SPAWN_EGG = REGISTRY.register("cyborg_zombie_spawn_egg", () -> new ForgeSpawnEggItem(TaxFutureCitizenModEntities.CYBORG_ZOMBIE, -16751002, -3407872, new Item.Properties()));
 	// Start of user code block custom items
 	// End of user code block custom items
 }

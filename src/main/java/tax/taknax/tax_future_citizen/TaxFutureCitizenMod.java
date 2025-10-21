@@ -3,6 +3,7 @@ package tax.taknax.tax_future_citizen;
 import tax.taknax.tax_future_citizen.init.TaxFutureCitizenModTabs;
 import tax.taknax.tax_future_citizen.init.TaxFutureCitizenModSounds;
 import tax.taknax.tax_future_citizen.init.TaxFutureCitizenModItems;
+import tax.taknax.tax_future_citizen.init.TaxFutureCitizenModEntities;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -43,6 +44,7 @@ public class TaxFutureCitizenMod {
 		TaxFutureCitizenModSounds.REGISTRY.register(bus);
 
 		TaxFutureCitizenModItems.REGISTRY.register(bus);
+		TaxFutureCitizenModEntities.REGISTRY.register(bus);
 
 		TaxFutureCitizenModTabs.REGISTRY.register(bus);
 
