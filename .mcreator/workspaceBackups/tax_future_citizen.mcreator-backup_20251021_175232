@@ -360,10 +360,10 @@
       "registry_name": "space_suit",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_boots.json",
-          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_helmet.json",
-          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_chestplate.json",
           "src/main/java/tax/taknax/tax_future_citizen/item/SpaceSuitItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_helmet.json",
+          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_boots.json",
+          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_chestplate.json",
           "src/main/resources/assets/tax_future_citizen/models/item/space_suit_leggings.json"
         ]
       },
@@ -1081,7 +1081,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_flux_catalyst.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeFluxCatalystConsumed",
@@ -1094,7 +1094,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_flux_catalyst_consumed.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeSpaceSuitHelmet",
@@ -1107,7 +1107,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_space_suit_helmet.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeSpaceSuitChestplate",
@@ -1120,7 +1120,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_space_suit_chestplate.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeSpaceSuitLeggings",
@@ -1133,7 +1133,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_space_suit_leggings.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeSpaceSuitBoots",
@@ -1146,7 +1146,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_space_suit_boots.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaber",
@@ -1159,7 +1159,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberWhite",
@@ -1172,7 +1172,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_white.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberBlack",
@@ -1185,7 +1185,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_black.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberBlue",
@@ -1198,7 +1198,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_blue.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberBlueLight",
@@ -1211,7 +1211,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_blue_light.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberRed",
@@ -1224,7 +1224,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_red.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberYellow",
@@ -1237,7 +1237,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_yellow.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberGray",
@@ -1250,7 +1250,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_gray.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberGreen",
@@ -1263,7 +1263,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_green.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberGreenLight",
@@ -1276,7 +1276,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_green_light.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberGrayLight",
@@ -1289,7 +1289,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_gray_light.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberOrange",
@@ -1302,7 +1302,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_orange.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberPurple",
@@ -1315,7 +1315,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_purple.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberPink",
@@ -1328,7 +1328,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_pink.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberBrown",
@@ -1341,7 +1341,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_brown.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberCyan",
@@ -1354,7 +1354,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_cyan.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "RecipeLightsaberMagenta",
@@ -1367,7 +1367,7 @@
           "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_magenta.json"
         ]
       },
-      "path": "~/armors"
+      "path": "~/recipes"
     },
     {
       "name": "MagmaCoreTower",
@@ -1382,7 +1382,7 @@
           "src/main/resources/data/tax_future_citizen/worldgen/structure/magma_core_tower.json"
         ]
       },
-      "path": "~/Structures"
+      "path": "~/structures"
     },
     {
       "name": "CyborgZombie",
@@ -1398,7 +1398,21 @@
           "src/main/resources/data/tax_future_citizen/forge/biome_modifier/cyborg_zombie_biome_modifier.json"
         ]
       },
-      "path": "~/Mobs"
+      "path": "~/mobs"
+    },
+    {
+      "name": "LightsaberButtons",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_buttons",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberButtonsItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_buttons.json"
+        ]
+      },
+      "path": "~/items"
     }
   ],
   "variable_elements": [],
@@ -1541,7 +1555,8 @@
       "LightsaberYellow",
       "FluxCatalyst",
       "FluxCatalystConusmed",
-      "CyborgZombie"
+      "CyborgZombie",
+      "LightsaberButtons"
     ]
   },
   "language_map": {
@@ -1602,18 +1617,19 @@
       "subtitles.flux_catalyst": "",
       "subtitles.jet_pack_sound_2": "",
       "item.tax_future_citizen.cyborg_zombie_spawn_egg": "Cyborg Zombie Spawn Egg",
-      "entity.tax_future_citizen.cyborg_zombie": "Cyborg Zombie"
+      "entity.tax_future_citizen.cyborg_zombie": "Cyborg Zombie",
+      "item.tax_future_citizen.lightsaber_buttons": "Lightsaber Buttons"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModSounds.java",
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModModels.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/mods.toml",
+      "src/main/resources/assets/tax_future_citizen/sounds.json",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModTabs.java",
       "src/main/java/tax/taknax/tax_future_citizen/TaxFutureCitizenMod.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/resources/assets/tax_future_citizen/sounds.json",
-      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModModels.java",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModKeyMappings.java",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModItems.java",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModEntities.java",
@@ -1652,11 +1668,15 @@
         "children": []
       },
       {
-        "name": "Structures",
+        "name": "structures",
         "children": []
       },
       {
-        "name": "Mobs",
+        "name": "mobs",
+        "children": []
+      },
+      {
+        "name": "recipes",
         "children": []
       }
     ]
@@ -1664,9 +1684,9 @@
   "workspaceSettings": {
     "modid": "tax_future_citizen",
     "modName": "Tax\u0027 Future Citizen",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "Future Citizen is a Minecraft moodifikation aims to bring the future.",
-    "author": "Taknax, LeonX",
+    "author": "Taknax, Leonxkingx",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/taxfuturecitizen",
     "license": "All Rights Reserved",
     "serverSideOnly": false,
@@ -1676,7 +1696,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Written by Taknax and LeonX",
+    "credits": "Written by Taknax and Leonxkingx",
     "modElementsPackage": "tax.taknax.tax_future_citizen"
   },
   "mcreatorVersion": 202500228610

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "color_lightsaber_button"
+      },
+      "name": "default"
+    }
+  }
+}

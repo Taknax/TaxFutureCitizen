@@ -360,10 +360,10 @@
       "registry_name": "space_suit",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_boots.json",
-          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_helmet.json",
-          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_chestplate.json",
           "src/main/java/tax/taknax/tax_future_citizen/item/SpaceSuitItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_helmet.json",
+          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_boots.json",
+          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_chestplate.json",
           "src/main/resources/assets/tax_future_citizen/models/item/space_suit_leggings.json"
         ]
       },
@@ -1368,6 +1368,37 @@
         ]
       },
       "path": "~/armors"
+    },
+    {
+      "name": "MagmaCoreTower",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_core_tower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/worldgen/structure_set/magma_core_tower.json",
+          "src/main/resources/data/tax_future_citizen/worldgen/template_pool/magma_core_tower.json",
+          "src/main/resources/data/tax_future_citizen/worldgen/structure/magma_core_tower.json"
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "CyborgZombie",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyborg_zombie",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/entity/CyborgZombieEntity.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/cyborg_zombie_spawn_egg.json",
+          "src/main/java/tax/taknax/tax_future_citizen/client/renderer/CyborgZombieRenderer.java",
+          "src/main/resources/data/tax_future_citizen/forge/biome_modifier/cyborg_zombie_biome_modifier.json"
+        ]
+      },
+      "path": "~/mobs"
     }
   ],
   "variable_elements": [],
@@ -1509,7 +1540,8 @@
       "LightsaberWhite",
       "LightsaberYellow",
       "FluxCatalyst",
-      "FluxCatalystConusmed"
+      "FluxCatalystConusmed",
+      "CyborgZombie"
     ]
   },
   "language_map": {
@@ -1568,20 +1600,24 @@
       "subtitles.lightsaber_ignition": "",
       "subtitles.lightsaber_swing": "",
       "subtitles.flux_catalyst": "",
-      "subtitles.jet_pack_sound_2": ""
+      "subtitles.jet_pack_sound_2": "",
+      "item.tax_future_citizen.cyborg_zombie_spawn_egg": "Cyborg Zombie Spawn Egg",
+      "entity.tax_future_citizen.cyborg_zombie": "Cyborg Zombie"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModSounds.java",
-      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModTabs.java",
       "src/main/resources/META-INF/mods.toml",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModModels.java",
-      "src/main/resources/assets/tax_future_citizen/sounds.json",
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModTabs.java",
       "src/main/java/tax/taknax/tax_future_citizen/TaxFutureCitizenMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/tax_future_citizen/sounds.json",
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModModels.java",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModKeyMappings.java",
-      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModItems.java"
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModItems.java",
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModEntities.java",
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModEntityRenderers.java"
     ]
   },
   "foldersRoot": {
@@ -1614,15 +1650,27 @@
       {
         "name": "overlays",
         "children": []
+      },
+      {
+        "name": "structures",
+        "children": []
+      },
+      {
+        "name": "mobs",
+        "children": []
+      },
+      {
+        "name": "recipes",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "tax_future_citizen",
     "modName": "Tax\u0027 Future Citizen",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "Future Citizen is a Minecraft moodifikation aims to bring the future.",
-    "author": "Taknax, LeonX",
+    "author": "Taknax, Leonxkingx",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/taxfuturecitizen",
     "license": "All Rights Reserved",
     "serverSideOnly": false,
@@ -1632,7 +1680,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Written by Taknax and LeonX",
+    "credits": "Written by Taknax and Leonxkingx",
     "modElementsPackage": "tax.taknax.tax_future_citizen"
   },
   "mcreatorVersion": 202500228610
