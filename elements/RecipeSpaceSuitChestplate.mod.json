@@ -12,10 +12,10 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "Items.REDSTONE"
+      "value": "CUSTOM:CircuitA"
     },
     "smithingInputAdditionStack": {
-      "value": "Blocks.GLASS"
+      "value": "CUSTOM:ButtonsGreenRed"
     },
     "smithingInputTemplateStack": {
       "value": "Items.IRON_CHESTPLATE"

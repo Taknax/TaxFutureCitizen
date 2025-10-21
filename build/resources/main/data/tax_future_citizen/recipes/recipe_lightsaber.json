@@ -3,14 +3,18 @@
   "group": "lightsaber",
   "category": "equipment",
   "pattern": [
-    "a",
-    "b"
+    "  a",
+    " b ",
+    "c  "
   ],
   "key": {
     "a": {
       "item": "tax_future_citizen:flux_catalyst"
     },
     "b": {
+      "item": "tax_future_citizen:micro_chip"
+    },
+    "c": {
       "item": "tax_future_citizen:lightsaber_off"
     }
   },

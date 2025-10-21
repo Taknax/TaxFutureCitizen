@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tax_future_citizen:item/circuit_a"
+  }
+}

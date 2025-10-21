@@ -1,9 +1,11 @@
 package tax.taknax.tax_future_citizen;
 
+import tax.taknax.tax_future_citizen.init.TaxFutureCitizenModVillagerProfessions;
 import tax.taknax.tax_future_citizen.init.TaxFutureCitizenModTabs;
 import tax.taknax.tax_future_citizen.init.TaxFutureCitizenModSounds;
 import tax.taknax.tax_future_citizen.init.TaxFutureCitizenModItems;
 import tax.taknax.tax_future_citizen.init.TaxFutureCitizenModEntities;
+import tax.taknax.tax_future_citizen.init.TaxFutureCitizenModBlocks;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -42,11 +44,14 @@ public class TaxFutureCitizenMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = context.getModEventBus();
 		TaxFutureCitizenModSounds.REGISTRY.register(bus);
+		TaxFutureCitizenModBlocks.REGISTRY.register(bus);
 
 		TaxFutureCitizenModItems.REGISTRY.register(bus);
 		TaxFutureCitizenModEntities.REGISTRY.register(bus);
 
 		TaxFutureCitizenModTabs.REGISTRY.register(bus);
+
+		TaxFutureCitizenModVillagerProfessions.PROFESSIONS.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

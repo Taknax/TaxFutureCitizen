@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tax_future_citizen:block/monitor"
+    },
+    "facing=east": {
+      "model": "tax_future_citizen:block/monitor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tax_future_citizen:block/monitor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tax_future_citizen:block/monitor",
+      "y": 270
+    }
+  }
+}

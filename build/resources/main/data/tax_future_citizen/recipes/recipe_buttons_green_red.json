@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "tax_future_citizen:button_green"
+    },
+    "b": {
+      "item": "tax_future_citizen:button_red"
+    }
+  },
+  "result": {
+    "item": "tax_future_citizen:buttons_green_red",
+    "count": 1
+  }
+}

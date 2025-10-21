@@ -38,5 +38,13 @@
         "stream": false
       }
     ]
+  },
+  "computer_villager": {
+    "sounds": [
+      {
+        "name": "tax_future_citizen:computer_villager_sound",
+        "stream": false
+      }
+    ]
   }
 }

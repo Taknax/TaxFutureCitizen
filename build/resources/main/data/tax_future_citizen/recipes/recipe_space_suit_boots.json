@@ -4,10 +4,10 @@
     "item": "minecraft:iron_boots"
   },
   "base": {
-    "item": "minecraft:redstone"
+    "item": "tax_future_citizen:circuit_c"
   },
   "addition": {
-    "item": "minecraft:glass"
+    "item": "tax_future_citizen:buttons_green_red"
   },
   "result": {
     "item": "tax_future_citizen:space_suit_boots"

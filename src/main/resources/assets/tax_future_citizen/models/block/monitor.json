@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tax_future_citizen:block/monitor_bottom",
+    "up": "tax_future_citizen:block/monitor_top",
+    "north": "tax_future_citizen:block/monitor_on",
+    "east": "tax_future_citizen:block/monitor_left",
+    "south": "tax_future_citizen:block/monitor_back",
+    "west": "tax_future_citizen:block/monitor_right",
+    "particle": "tax_future_citizen:block/monitor_bottom"
+  },
+  "render_type": "solid"
+}

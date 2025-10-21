@@ -1,0 +1,16 @@
+{
+  "_fv": 79,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Computer Villager",
+    "pointOfInterest": {
+      "value": "CUSTOM:Monitor"
+    },
+    "actionSound": {
+      "value": "CUSTOM:computer_villager"
+    },
+    "hat": "None",
+    "professionTextureFile": "computer_villager.png",
+    "zombifiedProfessionTextureFile": "computer_villager_zombie.png"
+  }
+}

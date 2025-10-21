@@ -56,5 +56,18 @@
   "subtitles.jet_pack_sound_2": "",
   "item.tax_future_citizen.cyborg_zombie_spawn_egg": "Cyborg Zombie Spawn Egg",
   "entity.tax_future_citizen.cyborg_zombie": "Cyborg Zombie",
-  "item.tax_future_citizen.lightsaber_buttons": "Lightsaber Buttons"
+  "item.tax_future_citizen.micro_chip": "Micro Chip",
+  "item.tax_future_citizen.display": "Display",
+  "item.tax_future_citizen.button_red": "Button Red",
+  "item.tax_future_citizen.button_green": "Button Green",
+  "item.tax_future_citizen.chip": "Chip",
+  "item.tax_future_citizen.capacitor": "Capacitor",
+  "item.tax_future_citizen.circuit_plate": "Circuit Plate",
+  "item.tax_future_citizen.circuit_a": "Circuit A",
+  "item.tax_future_citizen.circuit_b": "Circuit A",
+  "item.tax_future_citizen.circuit_c": "Circuit A",
+  "block.tax_future_citizen.monitor": "Monitor",
+  "subtitles.computer_villager": "",
+  "entity.minecraft.villager.tax_future_citizen.computer_villager": "Computer Villager",
+  "item.tax_future_citizen.buttons_green_red": "Buttons Green Red"
 }

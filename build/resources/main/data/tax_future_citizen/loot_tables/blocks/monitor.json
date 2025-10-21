@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "tax_future_citizen:blocks/monitor",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tax_future_citizen:monitor"
+        }
+      ]
+    }
+  ]
+}

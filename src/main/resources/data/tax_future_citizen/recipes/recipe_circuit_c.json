@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "tax_future_citizen:chip"
+    },
+    "b": {
+      "item": "tax_future_citizen:circuit_plate"
+    }
+  },
+  "result": {
+    "item": "tax_future_citizen:circuit_c",
+    "count": 1
+  }
+}

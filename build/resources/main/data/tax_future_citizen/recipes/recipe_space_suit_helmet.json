@@ -4,10 +4,10 @@
     "item": "minecraft:iron_helmet"
   },
   "base": {
-    "item": "minecraft:redstone"
+    "item": "tax_future_citizen:display"
   },
   "addition": {
-    "item": "minecraft:glass"
+    "item": "tax_future_citizen:buttons_green_red"
   },
   "result": {
     "item": "tax_future_citizen:space_suit_helmet"

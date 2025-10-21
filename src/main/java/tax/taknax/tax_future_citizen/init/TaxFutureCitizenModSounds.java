@@ -19,4 +19,5 @@ public class TaxFutureCitizenModSounds {
 	public static final RegistryObject<SoundEvent> FLUX_CATALYST = REGISTRY.register("flux_catalyst", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("tax_future_citizen", "flux_catalyst")));
 	public static final RegistryObject<SoundEvent> JET_PACK_SOUND = REGISTRY.register("jet_pack_sound", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("tax_future_citizen", "jet_pack_sound")));
 	public static final RegistryObject<SoundEvent> JET_PACK_SOUND_2 = REGISTRY.register("jet_pack_sound_2", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("tax_future_citizen", "jet_pack_sound_2")));
+	public static final RegistryObject<SoundEvent> COMPUTER_VILLAGER = REGISTRY.register("computer_villager", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("tax_future_citizen", "computer_villager")));
 }

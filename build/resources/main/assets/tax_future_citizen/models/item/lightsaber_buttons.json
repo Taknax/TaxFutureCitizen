@@ -1,7 +1,0 @@
-{
-  "parent": "tax_future_citizen:custom/lightsaber_button",
-  "textures": {
-    "0": "tax_future_citizen:block/color_lightsaber_button",
-    "particle": "tax_future_citizen:item/lightsaber_off_item"
-  }
-}

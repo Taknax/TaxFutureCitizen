@@ -1,0 +1,1838 @@
+{
+  "mod_elements": [
+    {
+      "name": "LightsaberBlack",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_black",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberBlackItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_black.json"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberBlue",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_blue",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberBlueItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_blue.json"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberBlueLight",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_blue_light",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberBlueLightItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_blue_light.json"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberBrown",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_brown",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberBrownItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_brown.json"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberCyan",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_cyan",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberCyanItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_cyan.json"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberRed",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_red",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_red.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberRedItem.java"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberOrange",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_orange",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberOrangeItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_orange.json"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberPink",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_pink",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_pink.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberPinkItem.java"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberPurple",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_purple",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberPurpleItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_purple.json"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberGreen",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_green",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberGreenItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_green.json"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberGreenLight",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_green_light",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberGreenLightItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_green_light.json"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberMagenta",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_magenta",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberMagentaItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_magenta.json"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberGray",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_gray",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberGrayItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_gray.json"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberGrayLight",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_gray_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_gray_light.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberGrayLightItem.java"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberWhite",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_white",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberWhiteItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_white.json"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberYellow",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_yellow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_yellow.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberYellowItem.java"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "LightsaberOff",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/lightsaber_off.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/LightsaberOffItem.java"
+        ]
+      },
+      "path": "~/sabers"
+    },
+    {
+      "name": "JetPackHotkeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jet_pack_hotkey_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/JetPackHotkeyPressedProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "JetPackKey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jet_pack_key",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/network/JetPackKeyMessage.java"
+        ]
+      },
+      "path": "~/keys"
+    },
+    {
+      "name": "LightsaberSwingSound",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_swing_sound",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/LightsaberSwingSoundProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "LightsaberIgnitionSound",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_ignition_sound",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/LightsaberIgnitionSoundProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceSuit",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_suit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_boots.json",
+          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_helmet.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/SpaceSuitItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_chestplate.json",
+          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_leggings.json"
+        ]
+      },
+      "path": "~/armors"
+    },
+    {
+      "name": "Citizen",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citizen",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/tabs"
+    },
+    {
+      "name": "MechanicSpaceBoots",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanic_space_boots",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/MechanicSpaceBootsProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "MechanicSpaceLeggings",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanic_space_leggings",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/MechanicSpaceLeggingsProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "MechanicSpaceHelmet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanic_space_helmet",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/MechanicSpaceHelmetProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "MechanicSpaceSuit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mechanic_space_suit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/MechanicSpaceSuitProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/client/screens/SpaceHelmetOverlayOverlay.java"
+        ]
+      },
+      "path": "~/overlays"
+    },
+    {
+      "name": "SpaceHelmetOverlayJetpackLabel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_jetpack_label",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayJetpackLabelProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "JetPackTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jet_pack_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/JetPackTickProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "JetPackHotkeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jet_pack_hotkey_released",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/JetPackHotkeyReleasedProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayHelmetLabel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_helmet_label",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayHelmetLabelProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayLeggingsLabel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_leggings_label",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayLeggingsLabelProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayBootsLabel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_boots_label",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayBootsLabelProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayBlackSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_black_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayBlackSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayBlueSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_blue_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayBlueSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayLightBlueSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_light_blue_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayLightBlueSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayBrownSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_brown_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayBrownSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayCyanSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_cyan_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayCyanSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayGraySaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_gray_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayGraySaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayLightGraySaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_light_gray_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayLightGraySaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayGreenSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_green_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayGreenSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayLightGreenSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_light_green_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayLightGreenSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayMagentaSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_magenta_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayMagentaSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayOrangeSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_orange_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayOrangeSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayPinkSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_pink_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayPinkSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayPurpleSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_purple_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayPurpleSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayRedSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_red_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayRedSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayWhiteSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_white_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayWhiteSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayYelliowSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_yelliow_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayYelliowSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "SpaceHelmetOverlayOffSaber",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_helmet_overlay_off_saber",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceHelmetOverlayOffSaberProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "JetPackTimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jet_pack_timer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/JetPackTimerProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "HelmetTimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helmet_timer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/HelmetTimerProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "LeggingsTimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leggings_timer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/LeggingsTimerProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "BootsTimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boots_timer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/BootsTimerProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "FluxEnergyConume",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flux_energy_conume",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/FluxEnergyConumeProcedure.java"
+        ]
+      },
+      "path": "~/mechanics"
+    },
+    {
+      "name": "FluxCatalyst",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flux_catalyst",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/FluxCatalystItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/flux_catalyst.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "FluxCatalystConusmed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flux_catalyst_conusmed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/flux_catalyst_conusmed.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/FluxCatalystConusmedItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RecipeFluxCatalyst",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_flux_catalyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_flux_catalyst.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeFluxCatalystConsumed",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_flux_catalyst_consumed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_flux_catalyst_consumed.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeSpaceSuitHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_space_suit_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_space_suit_helmet.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeSpaceSuitChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_space_suit_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_space_suit_chestplate.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeSpaceSuitLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_space_suit_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_space_suit_leggings.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeSpaceSuitBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_space_suit_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_space_suit_boots.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaber",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberWhite",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_white",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_white.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberBlack",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_black",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_black.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberBlue",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_blue.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberBlueLight",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_blue_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_blue_light.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberRed",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_red",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_red.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberYellow",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_yellow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_yellow.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberGray",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_gray",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_gray.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberGreen",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_green",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_green.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberGreenLight",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_green_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_green_light.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberGrayLight",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_gray_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_gray_light.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberOrange",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_orange",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_orange.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberPurple",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_purple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_purple.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberPink",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_pink",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_pink.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberBrown",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_brown",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_brown.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberCyan",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_cyan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_cyan.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeLightsaberMagenta",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_magenta",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_magenta.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "MagmaCoreTower",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_core_tower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/worldgen/template_pool/magma_core_tower.json",
+          "src/main/resources/data/tax_future_citizen/worldgen/structure_set/magma_core_tower.json",
+          "src/main/resources/data/tax_future_citizen/worldgen/structure/magma_core_tower.json"
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "CyborgZombie",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyborg_zombie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/cyborg_zombie_spawn_egg.json",
+          "src/main/resources/data/tax_future_citizen/forge/biome_modifier/cyborg_zombie_biome_modifier.json",
+          "src/main/java/tax/taknax/tax_future_citizen/client/renderer/CyborgZombieRenderer.java",
+          "src/main/java/tax/taknax/tax_future_citizen/entity/CyborgZombieEntity.java"
+        ]
+      },
+      "path": "~/mobs"
+    },
+    {
+      "name": "MicroChip",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "micro_chip",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/MicroChipItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/micro_chip.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Display",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/DisplayItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/display.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "ButtonRed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_red",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/button_red.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/ButtonRedItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "ButtonGreen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_green",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/button_green.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/ButtonGreenItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Chip",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chip",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/ChipItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/chip.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Capacitor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capacitor",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/CapacitorItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/capacitor.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CircuitPlate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "circuit_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/circuit_plate.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/CircuitPlateItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CircuitA",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "circuit_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/circuit_a.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/CircuitAItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CircuitB",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "circuit_b",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/CircuitBItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/circuit_b.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CircuitC",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "circuit_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/circuit_c.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/CircuitCItem.java"
+        ]
+      },
+      "path": "~/items"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "lightsaber_ignition",
+      "files": [
+        "lightsaber_ignition"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "lightsaber_swing",
+      "files": [
+        "lightsaber_swing"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "flux_catalyst",
+      "files": [
+        "flux_catalyst"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "jet_pack_sound",
+      "files": [
+        "jet_pack_sound"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "jet_pack_sound_2",
+      "files": [
+        "jet_pack_sound_2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:LightsaberYellow",
+      "~CUSTOM:LightsaberWhite",
+      "~CUSTOM:LightsaberGrayLight",
+      "~CUSTOM:LightsaberGray",
+      "~CUSTOM:LightsaberMagenta",
+      "~CUSTOM:LightsaberGreenLight",
+      "~CUSTOM:LightsaberGreen",
+      "~CUSTOM:LightsaberPurple",
+      "~CUSTOM:LightsaberPink",
+      "~CUSTOM:LightsaberOrange",
+      "~CUSTOM:LightsaberRed",
+      "~CUSTOM:LightsaberCyan",
+      "~CUSTOM:LightsaberBrown",
+      "~CUSTOM:LightsaberBlueLight",
+      "~CUSTOM:LightsaberBlue",
+      "~CUSTOM:LightsaberBlack"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:LightsaberYellow",
+      "~CUSTOM:LightsaberWhite",
+      "~CUSTOM:LightsaberGrayLight",
+      "~CUSTOM:LightsaberGray",
+      "~CUSTOM:LightsaberMagenta",
+      "~CUSTOM:LightsaberGreenLight",
+      "~CUSTOM:LightsaberGreen",
+      "~CUSTOM:LightsaberPurple",
+      "~CUSTOM:LightsaberPink",
+      "~CUSTOM:LightsaberOrange",
+      "~CUSTOM:LightsaberRed",
+      "~CUSTOM:LightsaberCyan",
+      "~CUSTOM:LightsaberBrown",
+      "~CUSTOM:LightsaberBlueLight",
+      "~CUSTOM:LightsaberBlue",
+      "~CUSTOM:LightsaberBlack"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:LightsaberOff",
+      "~CUSTOM:LightsaberYellow",
+      "~CUSTOM:LightsaberWhite",
+      "~CUSTOM:LightsaberGrayLight",
+      "~CUSTOM:LightsaberGray",
+      "~CUSTOM:LightsaberMagenta",
+      "~CUSTOM:LightsaberGreenLight",
+      "~CUSTOM:LightsaberGreen",
+      "~CUSTOM:LightsaberPurple",
+      "~CUSTOM:LightsaberPink",
+      "~CUSTOM:LightsaberOrange",
+      "~CUSTOM:LightsaberRed",
+      "~CUSTOM:LightsaberCyan",
+      "~CUSTOM:LightsaberBrown",
+      "~CUSTOM:LightsaberBlueLight",
+      "~CUSTOM:LightsaberBlue",
+      "~CUSTOM:LightsaberBlack"
+    ],
+    "ITEMS:forge:items/lightsaber": [
+      "CUSTOM:LightsaberBlack",
+      "CUSTOM:LightsaberBlue",
+      "CUSTOM:LightsaberBlueLight",
+      "CUSTOM:LightsaberBrown",
+      "CUSTOM:LightsaberCyan",
+      "CUSTOM:LightsaberGray",
+      "CUSTOM:LightsaberGrayLight",
+      "CUSTOM:LightsaberGreen",
+      "CUSTOM:LightsaberGreenLight",
+      "CUSTOM:LightsaberMagenta",
+      "CUSTOM:LightsaberOrange",
+      "CUSTOM:LightsaberPink",
+      "CUSTOM:LightsaberPurple",
+      "CUSTOM:LightsaberRed",
+      "CUSTOM:LightsaberWhite",
+      "CUSTOM:LightsaberYellow"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:Citizen": [
+      "SpaceSuit",
+      "LightsaberOff",
+      "LightsaberBlack",
+      "LightsaberBlue",
+      "LightsaberBlueLight",
+      "LightsaberBrown",
+      "LightsaberCyan",
+      "LightsaberRed",
+      "LightsaberOrange",
+      "LightsaberPink",
+      "LightsaberPurple",
+      "LightsaberGreen",
+      "LightsaberGreenLight",
+      "LightsaberMagenta",
+      "LightsaberGray",
+      "LightsaberGrayLight",
+      "LightsaberWhite",
+      "LightsaberYellow",
+      "FluxCatalyst",
+      "FluxCatalystConusmed",
+      "CyborgZombie",
+      "MicroChip"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.tax_future_citizen.lightsaber_black": "Black Lightsaber",
+      "item.tax_future_citizen.lightsaber_blue": "Blue Lightsaber",
+      "item.tax_future_citizen.lightsaber_blue_light": "Sky Blue Lightsaber",
+      "item.tax_future_citizen.lightsaber_brown": "Brown Lightsaber",
+      "item.tax_future_citizen.lightsaber_cyan": "Cyan Lightsaber",
+      "item.tax_future_citizen.lightsaber_red": "Red Lightsaber",
+      "item.tax_future_citizen.lightsaber_orange": "Orange Lightsaber",
+      "item.tax_future_citizen.lightsaber_pink": "Pink Lightsaber",
+      "item.tax_future_citizen.lightsaber_purple": "Purple Lightsaber",
+      "item.tax_future_citizen.lightsaber_green": "Green Lightsaber",
+      "item.tax_future_citizen.lightsaber_green_light": "Lime Lightsaber",
+      "item.tax_future_citizen.lightsaber_magenta": "Magenta Lightsaber",
+      "item.tax_future_citizen.lightsaber_gray": "Dark Gray Lightsaber",
+      "item.tax_future_citizen.lightsaber_gray_light": "Gray Lightsaber",
+      "item.tax_future_citizen.lightsaber_white": "White Lightsaber",
+      "item.tax_future_citizen.lightsaber_yellow": "Yellow Lightsaber",
+      "item.tax_future_citizen.lightsaber_off": "Lightsaber Handle",
+      "key.categories.space_suit": "Jet Pack Hotkey",
+      "subtitles.jet_pack_sound": "",
+      "subtitles.lightsaber_swing_sound": "",
+      "subtitles.lightsaber_ignition_sound": "",
+      "item.tax_future_citizen.space_suit_boots": "Space Boots",
+      "item.tax_future_citizen.space_suit_helmet": "Space Helmet",
+      "item_group.tax_future_citizen.citizen": "Citizen",
+      "item.tax_future_citizen.space_suit_leggings": "Space Pant",
+      "item.tax_future_citizen.space_suit_chestplate": "Jet Pack",
+      "item.space_suit.space_suit_chestplate": "Jet Pack",
+      "gui.tax_future_citizen.space_helmet_overlay.label_fuel": "Jet Pack Fuel: \u003cENBT:integer:displayFuel\u003e Arc Energy",
+      "key.tax_future_citizen.jet_pack_key": "Jet Pack Hotkey",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_green": "Lightsaber Green",
+      "gui.tax_future_citizen.space_helmet_overlay.label_space_pant": "Space Pant",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_blue": "Lightsaber Blue",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_brown": "Lightsaber Brown",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_red": "Lightsaber Red",
+      "gui.tax_future_citizen.space_helmet_overlay.label_space_helmet": "Space Helmet",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_light_gray": "Lightsaber Gray",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_orange": "Lightsaber Orange",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_pink": "Lightsaber Pink",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_light_blue": "Lightsaber Sky Blue",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_handle": "Lightsaber Handle",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_white": "Lightsaber White",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_purple": "Lightsaber Purple",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_yellow": "Lightsaber Yellow",
+      "gui.tax_future_citizen.space_helmet_overlay.label_space_boots": "Space Boots",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_cyan": "Lightsaber Cyan",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_gray": "Lightsaber Dark Gray",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_magenta": "Lightsaber Magenta",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_light_green": "Lightsaber Lime Green",
+      "gui.tax_future_citizen.space_helmet_overlay.label_lightsaber_black": "Lightsaber Black",
+      "item.tax_future_citizen.flux_catalyst": "Flux Catalyst",
+      "item.tax_future_citizen.flux_catalyst_conusmed": "Empty Flux Catalyst",
+      "subtitles.lightsaber_ignition": "",
+      "subtitles.lightsaber_swing": "",
+      "subtitles.flux_catalyst": "",
+      "subtitles.jet_pack_sound_2": "",
+      "item.tax_future_citizen.cyborg_zombie_spawn_egg": "Cyborg Zombie Spawn Egg",
+      "entity.tax_future_citizen.cyborg_zombie": "Cyborg Zombie",
+      "item.tax_future_citizen.micro_chip": "Micro Chip",
+      "item.tax_future_citizen.display": "Display",
+      "item.tax_future_citizen.button_red": "Button Red",
+      "item.tax_future_citizen.button_green": "Button Green",
+      "item.tax_future_citizen.chip": "Chip",
+      "item.tax_future_citizen.capacitor": "Capacitor",
+      "item.tax_future_citizen.circuit_plate": "Circuit Plate",
+      "item.tax_future_citizen.circuit_a": "Circuit A",
+      "item.tax_future_citizen.circuit_b": "Circuit A",
+      "item.tax_future_citizen.circuit_c": "Circuit A"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModSounds.java",
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModModels.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/resources/assets/tax_future_citizen/sounds.json",
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModTabs.java",
+      "src/main/java/tax/taknax/tax_future_citizen/TaxFutureCitizenMod.java",
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModKeyMappings.java",
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModItems.java",
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModEntities.java",
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModEntityRenderers.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "sabers",
+        "children": []
+      },
+      {
+        "name": "mechanics",
+        "children": []
+      },
+      {
+        "name": "tabs",
+        "children": []
+      },
+      {
+        "name": "armors",
+        "children": []
+      },
+      {
+        "name": "keys",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "overlays",
+        "children": []
+      },
+      {
+        "name": "structures",
+        "children": []
+      },
+      {
+        "name": "mobs",
+        "children": []
+      },
+      {
+        "name": "recipes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "tax_future_citizen",
+    "modName": "Tax\u0027 Future Citizen",
+    "version": "1.0.3",
+    "description": "Future Citizen is a Minecraft moodifikation aims to bring the future.",
+    "author": "Taknax, Leonxkingx",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/taxfuturecitizen",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "tax_future_citizen",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Written by Taknax and Leonxkingx",
+    "modElementsPackage": "tax.taknax.tax_future_citizen"
+  },
+  "mcreatorVersion": 202500228610
+}

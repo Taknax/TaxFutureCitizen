@@ -41,6 +41,7 @@ public class TaxFutureCitizenModTabs {
 				tabData.accept(TaxFutureCitizenModItems.FLUX_CATALYST.get());
 				tabData.accept(TaxFutureCitizenModItems.FLUX_CATALYST_CONUSMED.get());
 				tabData.accept(TaxFutureCitizenModItems.CYBORG_ZOMBIE_SPAWN_EGG.get());
-				tabData.accept(TaxFutureCitizenModItems.LIGHTSABER_BUTTONS.get());
+				tabData.accept(TaxFutureCitizenModItems.MICRO_CHIP.get());
+				tabData.accept(TaxFutureCitizenModBlocks.MONITOR.get().asItem());
 			}).build());
 }
