@@ -34,9 +34,6 @@ public class TaxFutureCitizenModTrades {
 			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(Items.EMERALD, 5),
 
 					new ItemStack(TaxFutureCitizenModItems.BUTTON_RED.get()), 5, 7, 0.05f));
-			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(Items.EMERALD, 9),
-
-					new ItemStack(TaxFutureCitizenModItems.FLUX_CATALYST.get(), 3), 10, 5, 0.05f));
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 15),
 
 					new ItemStack(TaxFutureCitizenModItems.DISPLAY.get()), 10, 5, 0.05f));
