@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "structure",
   "definition": {
-    "structure": "magma_tower_mobs",
+    "structure": "magma_tower_modded",
     "projection": "rigid",
     "ignoredBlocks": [
       {

@@ -1,19 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "group": "lightsaber",
   "category": "equipment",
-  "pattern": [
-    "a",
-    "b"
-  ],
-  "key": {
-    "a": {
+  "ingredients": [
+    {
       "item": "minecraft:light_gray_stained_glass"
     },
-    "b": {
+    {
       "tag": "forge:items/lightsaber"
     }
-  },
+  ],
   "result": {
     "item": "tax_future_citizen:lightsaber_gray_light",
     "count": 1

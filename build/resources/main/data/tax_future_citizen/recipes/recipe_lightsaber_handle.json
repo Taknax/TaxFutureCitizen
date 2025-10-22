@@ -1,18 +1,14 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "equipment",
-  "pattern": [
-    " a",
-    "b "
-  ],
-  "key": {
-    "a": {
+  "ingredients": [
+    {
       "item": "tax_future_citizen:buttons_green_red"
     },
-    "b": {
+    {
       "item": "minecraft:iron_ingot"
     }
-  },
+  ],
   "result": {
     "item": "tax_future_citizen:lightsaber_off",
     "count": 1

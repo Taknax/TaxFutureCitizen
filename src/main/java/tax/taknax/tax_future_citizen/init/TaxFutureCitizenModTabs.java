@@ -43,5 +43,15 @@ public class TaxFutureCitizenModTabs {
 				tabData.accept(TaxFutureCitizenModItems.CYBORG_ZOMBIE_SPAWN_EGG.get());
 				tabData.accept(TaxFutureCitizenModItems.MICRO_CHIP.get());
 				tabData.accept(TaxFutureCitizenModBlocks.MONITOR.get().asItem());
+				tabData.accept(TaxFutureCitizenModItems.BUTTON_GREEN.get());
+				tabData.accept(TaxFutureCitizenModItems.BUTTON_RED.get());
+				tabData.accept(TaxFutureCitizenModItems.BUTTONS_GREEN_RED.get());
+				tabData.accept(TaxFutureCitizenModItems.CAPACITOR.get());
+				tabData.accept(TaxFutureCitizenModItems.CHIP.get());
+				tabData.accept(TaxFutureCitizenModItems.CIRCUIT_A.get());
+				tabData.accept(TaxFutureCitizenModItems.CIRCUIT_B.get());
+				tabData.accept(TaxFutureCitizenModItems.CIRCUIT_C.get());
+				tabData.accept(TaxFutureCitizenModItems.CIRCUIT_PLATE.get());
+				tabData.accept(TaxFutureCitizenModItems.DISPLAY.get());
 			}).build());
 }

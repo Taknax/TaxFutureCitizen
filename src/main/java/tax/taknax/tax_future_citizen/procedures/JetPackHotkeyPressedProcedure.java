@@ -34,9 +34,9 @@ public class JetPackHotkeyPressedProcedure {
 				}
 			}
 			if (world instanceof ServerLevel _level)
-				_level.sendParticles(ParticleTypes.FLAME, x, y, z, 2, 1, 1, 1, 1);
+				_level.sendParticles(ParticleTypes.FLAME, x, y, z, 5, 1, 1, 1, 1);
 			if (world instanceof ServerLevel _level)
-				_level.sendParticles(ParticleTypes.CAMPFIRE_COSY_SMOKE, x, y, z, 2, 1, 1, 1, 1);
+				_level.sendParticles(ParticleTypes.CAMPFIRE_COSY_SMOKE, x, y, z, 5, 1, 1, 1, 1);
 		}
 	}
 }

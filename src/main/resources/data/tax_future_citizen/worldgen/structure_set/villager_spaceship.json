@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "tax_future_citizen:villager_spaceship",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 130,
+    "separation": 100,
+    "salt": 209078583
+  }
+}
