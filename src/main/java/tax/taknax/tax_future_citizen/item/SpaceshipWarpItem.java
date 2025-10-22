@@ -12,7 +12,7 @@ import net.minecraft.world.InteractionHand;
 
 public class SpaceshipWarpItem extends Item {
 	public SpaceshipWarpItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

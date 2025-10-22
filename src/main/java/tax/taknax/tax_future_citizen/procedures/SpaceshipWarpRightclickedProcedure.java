@@ -36,7 +36,7 @@ public class SpaceshipWarpRightclickedProcedure {
 		if (world instanceof ServerLevel _serverworld) {
 			StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("tax_future_citizen", "spaceship_modded2"));
 			if (template != null) {
-				template.placeInWorld(_serverworld, BlockPos.containing(x, 165, z), BlockPos.containing(x, 165, z), new StructurePlaceSettings().setRotation(Rotation.getRandom(_serverworld.random)).setMirror(Mirror.NONE).setIgnoreEntities(false),
+				template.placeInWorld(_serverworld, BlockPos.containing(x, 185, z), BlockPos.containing(x, 185, z), new StructurePlaceSettings().setRotation(Rotation.getRandom(_serverworld.random)).setMirror(Mirror.NONE).setIgnoreEntities(false),
 						_serverworld.random, 3);
 			}
 		}
