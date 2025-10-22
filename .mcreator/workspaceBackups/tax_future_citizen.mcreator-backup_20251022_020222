@@ -1539,6 +1539,113 @@
         ]
       },
       "path": "~/items"
+    },
+    {
+      "name": "Monitor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/block/monitor.json",
+          "src/main/java/tax/taknax/tax_future_citizen/block/MonitorBlock.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/monitor.json",
+          "src/main/resources/assets/tax_future_citizen/blockstates/monitor.json",
+          "src/main/resources/data/tax_future_citizen/loot_tables/blocks/monitor.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "ComputerVillager",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer_villager",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/villager"
+    },
+    {
+      "name": "ButtonsGreenRed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttons_green_red",
+      "metadata": {
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/item/ButtonsGreenRedItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/buttons_green_red.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RecipeLightsaberHandle",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lightsaber_handle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_lightsaber_handle.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeButtonsGreenRed",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_buttons_green_red",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_buttons_green_red.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeCircuitA",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_circuit_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_circuit_a.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeCircuitB",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_circuit_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_circuit_b.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RecipeCircuitC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_circuit_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tax_future_citizen/recipes/recipe_circuit_c.json"
+        ]
+      },
+      "path": "~/recipes"
     }
   ],
   "variable_elements": [],
@@ -1581,6 +1688,14 @@
         "jet_pack_sound_2"
       ],
       "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "computer_villager",
+      "files": [
+        "computer_villager_sound"
+      ],
+      "category": "voice",
       "subtitle": ""
     }
   ],
@@ -1682,7 +1797,8 @@
       "FluxCatalyst",
       "FluxCatalystConusmed",
       "CyborgZombie",
-      "MicroChip"
+      "MicroChip",
+      "Monitor"
     ]
   },
   "language_map": {
@@ -1753,7 +1869,11 @@
       "item.tax_future_citizen.circuit_plate": "Circuit Plate",
       "item.tax_future_citizen.circuit_a": "Circuit A",
       "item.tax_future_citizen.circuit_b": "Circuit A",
-      "item.tax_future_citizen.circuit_c": "Circuit A"
+      "item.tax_future_citizen.circuit_c": "Circuit A",
+      "block.tax_future_citizen.monitor": "Monitor",
+      "subtitles.computer_villager": "",
+      "entity.minecraft.villager.tax_future_citizen.computer_villager": "Computer Villager",
+      "item.tax_future_citizen.buttons_green_red": "Buttons Green Red"
     }
   },
   "metadata": {
@@ -1766,6 +1886,9 @@
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModTabs.java",
       "src/main/java/tax/taknax/tax_future_citizen/TaxFutureCitizenMod.java",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModKeyMappings.java",
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModVillagerProfessions.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
+      "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModBlocks.java",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModItems.java",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModEntities.java",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModEntityRenderers.java"
@@ -1812,6 +1935,18 @@
       },
       {
         "name": "recipes",
+        "children": []
+      },
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "villager",
+        "children": []
+      },
+      {
+        "name": "trades",
         "children": []
       }
     ]
