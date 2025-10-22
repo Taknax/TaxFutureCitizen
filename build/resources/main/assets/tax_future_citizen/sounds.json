@@ -46,5 +46,14 @@
         "stream": false
       }
     ]
+  },
+  "warp": {
+    "subtitle": "subtitles.warp",
+    "sounds": [
+      {
+        "name": "tax_future_citizen:warp-sound",
+        "stream": false
+      }
+    ]
   }
 }

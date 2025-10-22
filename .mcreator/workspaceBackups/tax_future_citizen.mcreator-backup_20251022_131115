@@ -1377,8 +1377,8 @@
       "registry_name": "magma_core_tower",
       "metadata": {
         "files": [
-          "src/main/resources/data/tax_future_citizen/worldgen/template_pool/magma_core_tower.json",
           "src/main/resources/data/tax_future_citizen/worldgen/structure_set/magma_core_tower.json",
+          "src/main/resources/data/tax_future_citizen/worldgen/template_pool/magma_core_tower.json",
           "src/main/resources/data/tax_future_citizen/worldgen/structure/magma_core_tower.json"
         ]
       },
@@ -1690,16 +1690,17 @@
       "path": "~/blocks"
     },
     {
-      "name": "VillagerSpaceship",
-      "type": "structure",
+      "name": "ShipSpawning",
+      "type": "feature",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "villager_spaceship",
+      "registry_name": "ship_spawning",
       "metadata": {
+        "has_nbt_structure": true,
         "files": [
-          "src/main/resources/data/tax_future_citizen/worldgen/structure_set/villager_spaceship.json",
-          "src/main/resources/data/tax_future_citizen/worldgen/structure/villager_spaceship.json",
-          "src/main/resources/data/tax_future_citizen/worldgen/template_pool/villager_spaceship.json"
+          "src/main/resources/data/tax_future_citizen/worldgen/placed_feature/ship_spawning.json",
+          "src/main/resources/data/tax_future_citizen/forge/biome_modifier/ship_spawning_biome_modifier.json",
+          "src/main/resources/data/tax_future_citizen/worldgen/configured_feature/ship_spawning.json"
         ]
       },
       "path": "~/structures"
@@ -1948,10 +1949,13 @@
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModSounds.java",
       "src/main/resources/META-INF/mods.toml",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/tax/taknax/tax_future_citizen/TaxFutureCitizenMod.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/assets/tax_future_citizen/sounds.json",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModModels.java",
+      "src/main/java/tax/taknax/tax_future_citizen/world/features/configurations/StructureFeatureConfiguration.java",
+      "src/main/java/tax/taknax/tax_future_citizen/world/features/StructureFeature.java",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModKeyMappings.java",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModVillagerProfessions.java",
       "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",

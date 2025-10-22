@@ -69,5 +69,7 @@
   "block.tax_future_citizen.monitor": "Monitor",
   "subtitles.computer_villager": "",
   "entity.minecraft.villager.tax_future_citizen.computer_villager": "Computer Villager",
-  "item.tax_future_citizen.buttons_green_red": "Buttons Green Red"
+  "item.tax_future_citizen.buttons_green_red": "Buttons Green Red",
+  "item.tax_future_citizen.spaceship_warp": "Spaceship Warp",
+  "subtitles.warp": "Spaceship warp"
 }

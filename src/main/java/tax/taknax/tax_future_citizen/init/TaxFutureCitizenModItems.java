@@ -3,6 +3,7 @@
  */
 package tax.taknax.tax_future_citizen.init;
 
+import tax.taknax.tax_future_citizen.item.SpaceshipWarpItem;
 import tax.taknax.tax_future_citizen.item.SpaceSuitItem;
 import tax.taknax.tax_future_citizen.item.MicroChipItem;
 import tax.taknax.tax_future_citizen.item.LightsaberYellowItem;
@@ -83,6 +84,7 @@ public class TaxFutureCitizenModItems {
 	public static final RegistryObject<Item> CIRCUIT_C = REGISTRY.register("circuit_c", () -> new CircuitCItem());
 	public static final RegistryObject<Item> MONITOR = block(TaxFutureCitizenModBlocks.MONITOR, new Item.Properties().stacksTo(1));
 	public static final RegistryObject<Item> BUTTONS_GREEN_RED = REGISTRY.register("buttons_green_red", () -> new ButtonsGreenRedItem());
+	public static final RegistryObject<Item> SPACESHIP_WARP = REGISTRY.register("spaceship_warp", () -> new SpaceshipWarpItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

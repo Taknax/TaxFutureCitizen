@@ -360,9 +360,9 @@
       "registry_name": "space_suit",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_boots.json",
-          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_helmet.json",
           "src/main/java/tax/taknax/tax_future_citizen/item/SpaceSuitItem.java",
+          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_helmet.json",
+          "src/main/resources/assets/tax_future_citizen/models/item/space_suit_boots.json",
           "src/main/resources/assets/tax_future_citizen/models/item/space_suit_chestplate.json",
           "src/main/resources/assets/tax_future_citizen/models/item/space_suit_leggings.json"
         ]
@@ -1377,8 +1377,8 @@
       "registry_name": "magma_core_tower",
       "metadata": {
         "files": [
-          "src/main/resources/data/tax_future_citizen/worldgen/template_pool/magma_core_tower.json",
           "src/main/resources/data/tax_future_citizen/worldgen/structure_set/magma_core_tower.json",
+          "src/main/resources/data/tax_future_citizen/worldgen/template_pool/magma_core_tower.json",
           "src/main/resources/data/tax_future_citizen/worldgen/structure/magma_core_tower.json"
         ]
       },
@@ -1548,11 +1548,11 @@
       "registry_name": "monitor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/tax_future_citizen/models/block/monitor.json",
-          "src/main/java/tax/taknax/tax_future_citizen/block/MonitorBlock.java",
           "src/main/resources/assets/tax_future_citizen/models/item/monitor.json",
+          "src/main/resources/data/tax_future_citizen/loot_tables/blocks/monitor.json",
+          "src/main/resources/assets/tax_future_citizen/models/block/monitor.json",
           "src/main/resources/assets/tax_future_citizen/blockstates/monitor.json",
-          "src/main/resources/data/tax_future_citizen/loot_tables/blocks/monitor.json"
+          "src/main/java/tax/taknax/tax_future_citizen/block/MonitorBlock.java"
         ]
       },
       "path": "~/blocks"
@@ -1657,6 +1657,98 @@
         "files": []
       },
       "path": "~/trades"
+    },
+    {
+      "name": "MonitorOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/MonitorOnBlockRightClickedProcedure.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "ShipSpawning",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ship_spawning",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/resources/data/tax_future_citizen/worldgen/placed_feature/ship_spawning.json",
+          "src/main/resources/data/tax_future_citizen/forge/biome_modifier/ship_spawning_biome_modifier.json",
+          "src/main/resources/data/tax_future_citizen/worldgen/configured_feature/ship_spawning.json"
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "Spaceshipspawner",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceshipspawner",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceshipspawnerProcedure.java"
+        ]
+      },
+      "path": "~/structures"
+    },
+    {
+      "name": "SpaceshipWarp",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceship_warp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tax_future_citizen/models/item/spaceship_warp.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/SpaceshipWarpItem.java"
+        ]
+      },
+      "path": "~/items"
     }
   ],
   "variable_elements": [],
@@ -1819,7 +1911,8 @@
       "CircuitB",
       "CircuitC",
       "CircuitPlate",
-      "Display"
+      "Display",
+      "SpaceshipWarp"
     ]
   },
   "language_map": {
@@ -1894,7 +1987,8 @@
       "block.tax_future_citizen.monitor": "Monitor",
       "subtitles.computer_villager": "",
       "entity.minecraft.villager.tax_future_citizen.computer_villager": "Computer Villager",
-      "item.tax_future_citizen.buttons_green_red": "Buttons Green Red"
+      "item.tax_future_citizen.buttons_green_red": "Buttons Green Red",
+      "item.tax_future_citizen.spaceship_warp": "Spaceship Warp"
     }
   },
   "metadata": {
@@ -1902,10 +1996,13 @@
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModSounds.java",
       "src/main/resources/META-INF/mods.toml",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/tax/taknax/tax_future_citizen/TaxFutureCitizenMod.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/assets/tax_future_citizen/sounds.json",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModModels.java",
+      "src/main/java/tax/taknax/tax_future_citizen/world/features/configurations/StructureFeatureConfiguration.java",
+      "src/main/java/tax/taknax/tax_future_citizen/world/features/StructureFeature.java",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModKeyMappings.java",
       "src/main/java/tax/taknax/tax_future_citizen/init/TaxFutureCitizenModVillagerProfessions.java",
       "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
@@ -1976,7 +2073,7 @@
   "workspaceSettings": {
     "modid": "tax_future_citizen",
     "modName": "Tax\u0027 Future Citizen",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Future Citizen is a Minecraft moodifikation aims to bring the future.",
     "author": "Taknax, Leonxkingx",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/taxfuturecitizen",

@@ -1377,8 +1377,8 @@
       "registry_name": "magma_core_tower",
       "metadata": {
         "files": [
-          "src/main/resources/data/tax_future_citizen/worldgen/template_pool/magma_core_tower.json",
           "src/main/resources/data/tax_future_citizen/worldgen/structure_set/magma_core_tower.json",
+          "src/main/resources/data/tax_future_citizen/worldgen/template_pool/magma_core_tower.json",
           "src/main/resources/data/tax_future_citizen/worldgen/structure/magma_core_tower.json"
         ]
       },
@@ -1690,19 +1690,53 @@
       "path": "~/blocks"
     },
     {
-      "name": "VillagerSpaceship",
-      "type": "structure",
+      "name": "SpaceshipWarp",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "villager_spaceship",
+      "registry_name": "spaceship_warp",
       "metadata": {
         "files": [
-          "src/main/resources/data/tax_future_citizen/worldgen/structure_set/villager_spaceship.json",
-          "src/main/resources/data/tax_future_citizen/worldgen/structure/villager_spaceship.json",
-          "src/main/resources/data/tax_future_citizen/worldgen/template_pool/villager_spaceship.json"
+          "src/main/resources/assets/tax_future_citizen/models/item/spaceship_warp.json",
+          "src/main/java/tax/taknax/tax_future_citizen/item/SpaceshipWarpItem.java"
         ]
       },
-      "path": "~/structures"
+      "path": "~/items"
+    },
+    {
+      "name": "SpaceshipWarpRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spaceship_warp_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/tax/taknax/tax_future_citizen/procedures/SpaceshipWarpRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/items"
     }
   ],
   "variable_elements": [],
@@ -1754,6 +1788,14 @@
       ],
       "category": "voice",
       "subtitle": ""
+    },
+    {
+      "name": "warp",
+      "files": [
+        "warp-sound"
+      ],
+      "category": "neutral",
+      "subtitle": "Spaceship warp"
     }
   ],
   "tag_elements": {
@@ -1865,7 +1907,8 @@
       "CircuitB",
       "CircuitC",
       "CircuitPlate",
-      "Display"
+      "Display",
+      "SpaceshipWarp"
     ]
   },
   "language_map": {
@@ -1940,7 +1983,9 @@
       "block.tax_future_citizen.monitor": "Monitor",
       "subtitles.computer_villager": "",
       "entity.minecraft.villager.tax_future_citizen.computer_villager": "Computer Villager",
-      "item.tax_future_citizen.buttons_green_red": "Buttons Green Red"
+      "item.tax_future_citizen.buttons_green_red": "Buttons Green Red",
+      "item.tax_future_citizen.spaceship_warp": "Spaceship Warp",
+      "subtitles.warp": "Spaceship warp"
     }
   },
   "metadata": {

@@ -53,5 +53,6 @@ public class TaxFutureCitizenModTabs {
 				tabData.accept(TaxFutureCitizenModItems.CIRCUIT_C.get());
 				tabData.accept(TaxFutureCitizenModItems.CIRCUIT_PLATE.get());
 				tabData.accept(TaxFutureCitizenModItems.DISPLAY.get());
+				tabData.accept(TaxFutureCitizenModItems.SPACESHIP_WARP.get());
 			}).build());
 }
