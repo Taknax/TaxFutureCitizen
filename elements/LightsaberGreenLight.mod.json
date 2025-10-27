@@ -40,7 +40,7 @@
       "name": "LightsaberIgnitionSound"
     },
     "onEntityHitWith": {
-      "name": "LightsaberIgnitionSound"
+      "name": "LightsaberSwingSound"
     },
     "onBlockDestroyedWithTool": {
       "name": "LightsaberSwingSound"

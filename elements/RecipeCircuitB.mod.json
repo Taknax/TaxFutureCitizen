@@ -41,7 +41,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CircuitA"
+      "value": "CUSTOM:CircuitB"
     },
     "name": "recipe_circuit_b",
     "namespace": "mod"
